@@ -1,0 +1,5 @@
+G:/CVTask3/build/CMakeFiles/CVTask3.dir
+G:/CVTask3/build/CMakeFiles/edit_cache.dir
+G:/CVTask3/build/CMakeFiles/rebuild_cache.dir
+G:/CVTask3/build/CMakeFiles/CVTask3_autogen_timestamp_deps.dir
+G:/CVTask3/build/CMakeFiles/CVTask3_autogen.dir

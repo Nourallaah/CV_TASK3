@@ -1,0 +1,9 @@
+[  0%] Built target CVTask3_autogen_timestamp_deps
+[ 14%] Automatic MOC and UIC for target CVTask3
+[ 14%] Built target CVTask3_autogen
+[ 28%] Building CXX object CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj
+[ 42%] Building CXX object CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj
+[ 57%] Building CXX object CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj
+[ 71%] Building CXX object CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj
+[ 85%] Linking CXX executable CVTask3.exe
+[100%] Built target CVTask3

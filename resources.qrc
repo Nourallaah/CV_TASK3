@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+ <qresource prefix="/">
+  <file>Resources/up_arrow.svg</file>
+  <file>Resources/down_arrow.svg</file>
+ </qresource>
+</RCC>

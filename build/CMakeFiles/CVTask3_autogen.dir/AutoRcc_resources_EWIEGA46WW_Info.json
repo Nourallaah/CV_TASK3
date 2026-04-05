@@ -1,0 +1,26 @@
+{
+	"BUILD_DIR" : "G:/CVTask3/build/CVTask3_autogen",
+	"CMAKE_BINARY_DIR" : "G:/CVTask3/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "G:/CVTask3/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "G:/CVTask3",
+	"CMAKE_SOURCE_DIR" : "G:/CVTask3",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "MinGW Makefiles",
+	"INCLUDE_DIR" : "G:/CVTask3/build/CVTask3_autogen/include",
+	"INPUTS" : 
+	[
+		"G:/CVTask3/Resources/down_arrow.svg",
+		"G:/CVTask3/Resources/up_arrow.svg"
+	],
+	"LOCK_FILE" : "G:/CVTask3/build/CMakeFiles/CVTask3_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "--no-zstd", "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.11.0/mingw_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "G:/CVTask3/build/CMakeFiles/CVTask3_autogen.dir/AutoRcc_resources_EWIEGA46WW_Used.txt",
+	"SOURCE" : "G:/CVTask3/resources.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
