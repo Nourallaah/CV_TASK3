@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\CVTask3
+CMAKE_SOURCE_DIR = D:\CV_TASK3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\CVTask3\build
+CMAKE_BINARY_DIR = D:\CV_TASK3\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CVTask3.dir/depend.make
@@ -68,21 +68,21 @@ include CMakeFiles/CVTask3.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CVTask3.dir/flags.make
 
-CVTask3_autogen/timestamp: C:/Qt/6.11.0/mingw_64/bin/moc.exe
-CVTask3_autogen/timestamp: C:/Qt/6.11.0/mingw_64/bin/uic.exe
+CVTask3_autogen/timestamp: C:/msys64/mingw64/share/qt6/bin/moc.exe
+CVTask3_autogen/timestamp: C:/msys64/mingw64/share/qt6/bin/uic.exe
 CVTask3_autogen/timestamp: CMakeFiles/CVTask3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CVTask3"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen G:/CVTask3/build/CMakeFiles/CVTask3_autogen.dir/AutogenInfo.json ""
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch G:/CVTask3/build/CVTask3_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CVTask3"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/CV_TASK3/build/CMakeFiles/CVTask3_autogen.dir/AutogenInfo.json ""
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/CV_TASK3/build/CVTask3_autogen/timestamp
 
-CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: G:/CVTask3/resources.qrc
+CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: D:/CV_TASK3/resources.qrc
 CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: CMakeFiles/CVTask3_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json
-CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: G:/CVTask3/Resources/down_arrow.svg
-CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: G:/CVTask3/Resources/up_arrow.svg
-CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Qt/6.11.0/mingw_64/bin/rcc.exe
-CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: C:/Qt/6.11.0/mingw_64/bin/rcc.exe
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources.qrc"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc G:/CVTask3/build/CMakeFiles/CVTask3_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json 
+CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: D:/CV_TASK3/Resources/down_arrow.svg
+CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: D:/CV_TASK3/Resources/up_arrow.svg
+CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: C:/msys64/mingw64/share/qt6/bin/rcc.exe
+CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp: C:/msys64/mingw64/share/qt6/bin/rcc.exe
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Automatic RCC for resources.qrc"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autorcc D:/CV_TASK3/build/CMakeFiles/CVTask3_autogen.dir/AutoRcc_resources_EWIEGA46WW_Info.json 
 
 CMakeFiles/CVTask3.dir/codegen:
 .PHONY : CMakeFiles/CVTask3.dir/codegen
@@ -91,76 +91,76 @@ CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj: CMakeFiles/CVTa
 CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj: CMakeFiles/CVTask3.dir/includes_CXX.rsp
 CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj: CVTask3_autogen/mocs_compilation.cpp
 CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj: CMakeFiles/CVTask3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\CVTask3.dir\CVTask3_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\CVTask3.dir\CVTask3_autogen\mocs_compilation.cpp.obj -c G:\CVTask3\build\CVTask3_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\CVTask3.dir\CVTask3_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\CVTask3.dir\CVTask3_autogen\mocs_compilation.cpp.obj -c D:\CV_TASK3\build\CVTask3_autogen\mocs_compilation.cpp
 
 CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\CVTask3\build\CVTask3_autogen\mocs_compilation.cpp > CMakeFiles\CVTask3.dir\CVTask3_autogen\mocs_compilation.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CV_TASK3\build\CVTask3_autogen\mocs_compilation.cpp > CMakeFiles\CVTask3.dir\CVTask3_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\CVTask3\build\CVTask3_autogen\mocs_compilation.cpp -o CMakeFiles\CVTask3.dir\CVTask3_autogen\mocs_compilation.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CV_TASK3\build\CVTask3_autogen\mocs_compilation.cpp -o CMakeFiles\CVTask3.dir\CVTask3_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj: CMakeFiles/CVTask3.dir/flags.make
 CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj: CMakeFiles/CVTask3.dir/includes_CXX.rsp
-CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj: G:/CVTask3/Frontend/main.cpp
+CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj: D:/CV_TASK3/Frontend/main.cpp
 CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj: CMakeFiles/CVTask3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj -MF CMakeFiles\CVTask3.dir\Frontend\main.cpp.obj.d -o CMakeFiles\CVTask3.dir\Frontend\main.cpp.obj -c G:\CVTask3\Frontend\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj -MF CMakeFiles\CVTask3.dir\Frontend\main.cpp.obj.d -o CMakeFiles\CVTask3.dir\Frontend\main.cpp.obj -c D:\CV_TASK3\Frontend\main.cpp
 
 CMakeFiles/CVTask3.dir/Frontend/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CVTask3.dir/Frontend/main.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\CVTask3\Frontend\main.cpp > CMakeFiles\CVTask3.dir\Frontend\main.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CV_TASK3\Frontend\main.cpp > CMakeFiles\CVTask3.dir\Frontend\main.cpp.i
 
 CMakeFiles/CVTask3.dir/Frontend/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CVTask3.dir/Frontend/main.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\CVTask3\Frontend\main.cpp -o CMakeFiles\CVTask3.dir\Frontend\main.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CV_TASK3\Frontend\main.cpp -o CMakeFiles\CVTask3.dir\Frontend\main.cpp.s
 
 CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj: CMakeFiles/CVTask3.dir/flags.make
 CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj: CMakeFiles/CVTask3.dir/includes_CXX.rsp
-CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj: G:/CVTask3/Frontend/mainwindow.cpp
+CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj: D:/CV_TASK3/Frontend/mainwindow.cpp
 CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj: CMakeFiles/CVTask3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj -MF CMakeFiles\CVTask3.dir\Frontend\mainwindow.cpp.obj.d -o CMakeFiles\CVTask3.dir\Frontend\mainwindow.cpp.obj -c G:\CVTask3\Frontend\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj -MF CMakeFiles\CVTask3.dir\Frontend\mainwindow.cpp.obj.d -o CMakeFiles\CVTask3.dir\Frontend\mainwindow.cpp.obj -c D:\CV_TASK3\Frontend\mainwindow.cpp
 
 CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\CVTask3\Frontend\mainwindow.cpp > CMakeFiles\CVTask3.dir\Frontend\mainwindow.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CV_TASK3\Frontend\mainwindow.cpp > CMakeFiles\CVTask3.dir\Frontend\mainwindow.cpp.i
 
 CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\CVTask3\Frontend\mainwindow.cpp -o CMakeFiles\CVTask3.dir\Frontend\mainwindow.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CV_TASK3\Frontend\mainwindow.cpp -o CMakeFiles\CVTask3.dir\Frontend\mainwindow.cpp.s
 
 CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj: CMakeFiles/CVTask3.dir/flags.make
 CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj: CMakeFiles/CVTask3.dir/includes_CXX.rsp
-CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj: G:/CVTask3/Backend/backend.cpp
+CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj: D:/CV_TASK3/Backend/backend.cpp
 CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj: CMakeFiles/CVTask3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj -MF CMakeFiles\CVTask3.dir\Backend\backend.cpp.obj.d -o CMakeFiles\CVTask3.dir\Backend\backend.cpp.obj -c G:\CVTask3\Backend\backend.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj -MF CMakeFiles\CVTask3.dir\Backend\backend.cpp.obj.d -o CMakeFiles\CVTask3.dir\Backend\backend.cpp.obj -c D:\CV_TASK3\Backend\backend.cpp
 
 CMakeFiles/CVTask3.dir/Backend/backend.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CVTask3.dir/Backend/backend.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\CVTask3\Backend\backend.cpp > CMakeFiles\CVTask3.dir\Backend\backend.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CV_TASK3\Backend\backend.cpp > CMakeFiles\CVTask3.dir\Backend\backend.cpp.i
 
 CMakeFiles/CVTask3.dir/Backend/backend.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CVTask3.dir/Backend/backend.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\CVTask3\Backend\backend.cpp -o CMakeFiles\CVTask3.dir\Backend\backend.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CV_TASK3\Backend\backend.cpp -o CMakeFiles\CVTask3.dir\Backend\backend.cpp.s
 
 CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/CVTask3.dir/flags.make
 CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/CVTask3.dir/includes_CXX.rsp
 CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj: CMakeFiles/CVTask3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj -MF CMakeFiles\CVTask3.dir\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d -o CMakeFiles\CVTask3.dir\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp.obj -c G:\CVTask3\build\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj"
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj -MF CMakeFiles\CVTask3.dir\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp.obj.d -o CMakeFiles\CVTask3.dir\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp.obj -c D:\CV_TASK3\build\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp
 
 CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.i"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\CVTask3\build\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp > CMakeFiles\CVTask3.dir\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp.i
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\CV_TASK3\build\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp > CMakeFiles\CVTask3.dir\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp.i
 
 CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.s"
-	C:\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\CVTask3\build\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp -o CMakeFiles\CVTask3.dir\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp.s
+	C:\msys64\mingw64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\CV_TASK3\build\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp -o CMakeFiles\CVTask3.dir\CVTask3_autogen\EWIEGA46WW\qrc_resources.cpp.s
 
 # Object files for target CVTask3
 CVTask3_OBJECTS = \
@@ -179,13 +179,71 @@ CVTask3.exe: CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj
 CVTask3.exe: CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj
 CVTask3.exe: CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj
 CVTask3.exe: CMakeFiles/CVTask3.dir/build.make
-CVTask3.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Widgets.a
-CVTask3.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Gui.a
-CVTask3.exe: C:/Qt/6.11.0/mingw_64/lib/libQt6Core.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_gapi.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_stitching.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_alphamat.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_aruco.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_bgsegm.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_ccalib.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_cvv.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_dnn_objdetect.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_dnn_superres.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_dpm.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_face.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_freetype.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_fuzzy.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_hdf.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_hfs.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_img_hash.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_intensity_transform.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_line_descriptor.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_mcc.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_ovis.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_quality.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_rapid.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_reg.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_rgbd.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_saliency.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_sfm.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_signal.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_stereo.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_structured_light.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_superres.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_surface_matching.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_tracking.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_videostab.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_viz.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_wechat_qrcode.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_xfeatures2d.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_xobjdetect.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_xphoto.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_shape.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_highgui.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libQt6Widgets.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libQt6Gui.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libQt6Core.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_datasets.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_plot.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_text.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_ml.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_phase_unwrapping.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_optflow.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_ximgproc.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_video.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_videoio.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_imgcodecs.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_objdetect.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_calib3d.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_dnn.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_features2d.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_flann.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_photo.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_imgproc.dll.a
+CVTask3.exe: C:/msys64/mingw64/lib/libopencv_core.dll.a
 CVTask3.exe: CMakeFiles/CVTask3.dir/linkLibs.rsp
 CVTask3.exe: CMakeFiles/CVTask3.dir/objects1.rsp
 CVTask3.exe: CMakeFiles/CVTask3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CVTask3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CVTask3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CVTask3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -198,6 +256,6 @@ CMakeFiles/CVTask3.dir/clean:
 
 CMakeFiles/CVTask3.dir/depend: CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp
 CMakeFiles/CVTask3.dir/depend: CVTask3_autogen/timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\CVTask3 G:\CVTask3 G:\CVTask3\build G:\CVTask3\build G:\CVTask3\build\CMakeFiles\CVTask3.dir\DependInfo.cmake "--color=$(COLOR)" CVTask3
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CV_TASK3 D:\CV_TASK3 D:\CV_TASK3\build D:\CV_TASK3\build D:\CV_TASK3\build\CMakeFiles\CVTask3.dir\DependInfo.cmake "--color=$(COLOR)" CVTask3
 .PHONY : CMakeFiles/CVTask3.dir/depend
 

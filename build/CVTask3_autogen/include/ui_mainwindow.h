@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 6.11.0
+** Created by: Qt User Interface Compiler version 6.10.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -54,6 +54,7 @@ public:
     QDoubleSpinBox *spinThreshold;
     QSpacerItem *hSpacer;
     QPushButton *runHarrisButton;
+    QPushButton *runSiftButton;
     QSpacerItem *hSpacer2;
     QVBoxLayout *vboxLayout3;
     QLabel *labelCornerCount;
@@ -221,6 +222,14 @@ public:
 
         controlsLayout->addWidget(runHarrisButton);
 
+        runSiftButton = new QPushButton(groupControls);
+        runSiftButton->setObjectName("runSiftButton");
+        runSiftButton->setMinimumSize(QSize(190, 44));
+        runSiftButton->setEnabled(false);
+        runSiftButton->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
+
+        controlsLayout->addWidget(runSiftButton);
+
         hSpacer2 = new QSpacerItem(40, 20, QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Minimum);
 
         controlsLayout->addItem(hSpacer2);
@@ -265,14 +274,15 @@ public:
         filePathLabel->setText(QCoreApplication::translate("MainWindow", "No image loaded \342\200\224 double-click the image panel to upload", nullptr));
         groupOriginal->setTitle(QCoreApplication::translate("MainWindow", "Original Image \342\200\224 double-click to upload", nullptr));
         labelOriginal->setText(QCoreApplication::translate("MainWindow", "Double-click here to upload an image", nullptr));
-        groupResult->setTitle(QCoreApplication::translate("MainWindow", "Result \342\200\224 Harris Corners", nullptr));
+        groupResult->setTitle(QCoreApplication::translate("MainWindow", "Result \342\200\224 Visual Output", nullptr));
         labelResult->setText(QCoreApplication::translate("MainWindow", "Run the detector to see results here", nullptr));
-        groupControls->setTitle(QCoreApplication::translate("MainWindow", "Harris Parameters and Controls", nullptr));
-        label->setText(QCoreApplication::translate("MainWindow", "Sensitivity  k", nullptr));
+        groupControls->setTitle(QCoreApplication::translate("MainWindow", "Parameters and Controls", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "Sensitivity k", nullptr));
         label1->setText(QCoreApplication::translate("MainWindow", "Block Size", nullptr));
         label2->setText(QCoreApplication::translate("MainWindow", "Threshold", nullptr));
         runHarrisButton->setText(QCoreApplication::translate("MainWindow", "Run Harris Detector", nullptr));
-        labelCornerCount->setText(QCoreApplication::translate("MainWindow", "Corners detected: \342\200\224", nullptr));
+        runSiftButton->setText(QCoreApplication::translate("MainWindow", "Run SIFT Descriptors", nullptr));
+        labelCornerCount->setText(QCoreApplication::translate("MainWindow", "Features detected: \342\200\224", nullptr));
         labelTime->setText(QCoreApplication::translate("MainWindow", "Computation time: \342\200\224", nullptr));
     } // retranslateUi
 

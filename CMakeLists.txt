@@ -11,8 +11,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Widgets Gui)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Widgets Gui)
+find_package(OpenCV REQUIRED) # <-- Find OpenCV
 
-# ملفات المشروع مع المسار الصحيح
+# Project files with correct paths
 set(PROJECT_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/Frontend/main.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/Frontend/mainwindow.cpp
@@ -23,7 +24,7 @@ set(PROJECT_SOURCES
     ${CMAKE_CURRENT_SOURCE_DIR}/resources.qrc
 )
 
-# إضافة المسارات للـ compiler
+# Compiler include paths
 set(FRONTEND_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Frontend)
 set(BACKEND_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Backend)
 
@@ -38,9 +39,11 @@ else()
     )
 endif()
 
-target_include_directories(CVTask3 PRIVATE ${FRONTEND_DIR} ${BACKEND_DIR})
+# Added OpenCV include directories
+target_include_directories(CVTask3 PRIVATE ${FRONTEND_DIR} ${BACKEND_DIR} ${OpenCV_INCLUDE_DIRS})
 
-target_link_libraries(CVTask3 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Gui)
+# Linked OpenCV libraries
+target_link_libraries(CVTask3 PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Gui ${OpenCV_LIBS})
 
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(CVTask3)

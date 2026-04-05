@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\CVTask3
+CMAKE_SOURCE_DIR = D:\CV_TASK3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\CVTask3\build
+CMAKE_BINARY_DIR = D:\CV_TASK3\build
 
 # Utility rule file for CVTask3_autogen.
 
@@ -67,12 +67,12 @@ include CMakeFiles/CVTask3_autogen.dir/progress.make
 
 CMakeFiles/CVTask3_autogen: CVTask3_autogen/timestamp
 
-CVTask3_autogen/timestamp: C:/Qt/6.11.0/mingw_64/bin/moc.exe
-CVTask3_autogen/timestamp: C:/Qt/6.11.0/mingw_64/bin/uic.exe
+CVTask3_autogen/timestamp: C:/msys64/mingw64/share/qt6/bin/moc.exe
+CVTask3_autogen/timestamp: C:/msys64/mingw64/share/qt6/bin/uic.exe
 CVTask3_autogen/timestamp: CMakeFiles/CVTask3_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=G:\CVTask3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CVTask3"
-	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen G:/CVTask3/build/CMakeFiles/CVTask3_autogen.dir/AutogenInfo.json ""
-	"C:\Program Files\CMake\bin\cmake.exe" -E touch G:/CVTask3/build/CVTask3_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\CV_TASK3\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target CVTask3"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/CV_TASK3/build/CMakeFiles/CVTask3_autogen.dir/AutogenInfo.json ""
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/CV_TASK3/build/CVTask3_autogen/timestamp
 
 CMakeFiles/CVTask3_autogen.dir/codegen:
 .PHONY : CMakeFiles/CVTask3_autogen.dir/codegen
@@ -91,6 +91,6 @@ CMakeFiles/CVTask3_autogen.dir/clean:
 .PHONY : CMakeFiles/CVTask3_autogen.dir/clean
 
 CMakeFiles/CVTask3_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\CVTask3 G:\CVTask3 G:\CVTask3\build G:\CVTask3\build G:\CVTask3\build\CMakeFiles\CVTask3_autogen.dir\DependInfo.cmake "--color=$(COLOR)" CVTask3_autogen
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CV_TASK3 D:\CV_TASK3 D:\CV_TASK3\build D:\CV_TASK3\build D:\CV_TASK3\build\CMakeFiles\CVTask3_autogen.dir\DependInfo.cmake "--color=$(COLOR)" CVTask3_autogen
 .PHONY : CMakeFiles/CVTask3_autogen.dir/depend
 

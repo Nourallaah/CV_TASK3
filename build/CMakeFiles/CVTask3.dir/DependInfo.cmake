@@ -9,11 +9,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "CVTask3_autogen/timestamp" "custom" "CVTask3_autogen/deps"
-  "G:/CVTask3/Backend/backend.cpp" "CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj.d"
-  "G:/CVTask3/build/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp" "CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj.d"
-  "G:/CVTask3/build/CVTask3_autogen/mocs_compilation.cpp" "CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj.d"
-  "G:/CVTask3/Frontend/main.cpp" "CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj.d"
-  "G:/CVTask3/Frontend/mainwindow.cpp" "CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj.d"
+  "D:/CV_TASK3/Backend/backend.cpp" "CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/Backend/backend.cpp.obj.d"
+  "D:/CV_TASK3/build/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp" "CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp.obj.d"
+  "D:/CV_TASK3/build/CVTask3_autogen/mocs_compilation.cpp" "CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj.d"
+  "D:/CV_TASK3/Frontend/main.cpp" "CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/Frontend/main.cpp.obj.d"
+  "D:/CV_TASK3/Frontend/mainwindow.cpp" "CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj" "gcc" "CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

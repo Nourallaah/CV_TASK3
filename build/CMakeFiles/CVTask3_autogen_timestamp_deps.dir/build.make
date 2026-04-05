@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = G:\CVTask3
+CMAKE_SOURCE_DIR = D:\CV_TASK3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = G:\CVTask3\build
+CMAKE_BINARY_DIR = D:\CV_TASK3\build
 
 # Utility rule file for CVTask3_autogen_timestamp_deps.
 
@@ -80,6 +80,6 @@ CMakeFiles/CVTask3_autogen_timestamp_deps.dir/clean:
 .PHONY : CMakeFiles/CVTask3_autogen_timestamp_deps.dir/clean
 
 CMakeFiles/CVTask3_autogen_timestamp_deps.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" G:\CVTask3 G:\CVTask3 G:\CVTask3\build G:\CVTask3\build G:\CVTask3\build\CMakeFiles\CVTask3_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)" CVTask3_autogen_timestamp_deps
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\CV_TASK3 D:\CV_TASK3 D:\CV_TASK3\build D:\CV_TASK3\build D:\CV_TASK3\build\CMakeFiles\CVTask3_autogen_timestamp_deps.dir\DependInfo.cmake "--color=$(COLOR)" CVTask3_autogen_timestamp_deps
 .PHONY : CMakeFiles/CVTask3_autogen_timestamp_deps.dir/depend
 
