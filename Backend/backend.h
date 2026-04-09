@@ -20,6 +20,18 @@ struct SiftResult {
     std::vector<cv::KeyPoint> keypoints; // Stored keypoints
 };
 
+enum class MatchMethod {
+    SSD,
+    NCC
+};
+
+struct MatchResult {
+    QImage matchImage;
+    int matchCount;
+    int totalSourceFeatures;
+    double timeMs;
+};
+
 class Backend
 {
 public:
@@ -33,6 +45,9 @@ public:
 
     // Run SIFT feature detection and descriptor generation
     SiftResult runSift(const QImage& input);
+
+    // Match features between two images
+    MatchResult matchFeatures(const QImage& img1, const QImage& img2, MatchMethod method, double ratioThreshold = 0.8);
 
 private:
     // Convert any QImage format to a 2-D grayscale float grid [0,255]

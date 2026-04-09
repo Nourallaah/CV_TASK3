@@ -173,10 +173,12 @@ HarrisResult Backend::runHarris(const QImage& input,
     // ---- 7. Draw corners on output image ----------------------------------
     QImage output = input.convertToFormat(QImage::Format_RGB32);
     QPainter painter(&output);
-    painter.setPen(QPen(Qt::red, 3));
+    painter.setRenderHint(QPainter::Antialiasing); // Smooth edges
+    painter.setPen(QPen(Qt::red, 3));              // Solid Red 3px
     int markerRadius = std::max(4, std::min(W, H) / 100);
-    for (auto& [cx, cy] : corners)
+    for (auto& [cx, cy] : corners) {
         painter.drawEllipse(QPoint(cx, cy), markerRadius, markerRadius);
+    }
     painter.end();
 
     // ---- 8. Timing --------------------------------------------------------
@@ -211,7 +213,8 @@ SiftResult Backend::runSift(const QImage& input)
 
     // ---- 3. Draw rich keypoints (shows scale and orientation) -------------
     cv::Mat outputMat;
-    cv::drawKeypoints(cvImage, keypoints, outputMat, cv::Scalar::all(-1), 
+    // Use bright green instead of random pastel colors to make it clear
+    cv::drawKeypoints(cvImage, keypoints, outputMat, cv::Scalar(0, 255, 0), 
                       cv::DrawMatchesFlags::DRAW_RICH_KEYPOINTS);
 
     // ---- 4. Timing --------------------------------------------------------
@@ -224,6 +227,131 @@ SiftResult Backend::runSift(const QImage& input)
     result.timeMs        = ms;
     result.descriptors   = descriptors.clone();
     result.keypoints     = keypoints;
+
+    return result;
+}
+
+// ---------------------------------------------------------------------------
+// Main: Feature Matching using SSD / NCC
+// ---------------------------------------------------------------------------
+MatchResult Backend::matchFeatures(const QImage& img1, const QImage& img2, MatchMethod method, double ratioThreshold)
+{
+    auto t0 = std::chrono::high_resolution_clock::now();
+
+    // ---- 1. Compute SIFT for both images ----------------------------------
+    SiftResult s1 = runSift(img1);
+    SiftResult s2 = runSift(img2);
+
+    int rows1 = s1.descriptors.rows;
+    int rows2 = s2.descriptors.rows;
+    int cols  = s1.descriptors.cols;
+
+    std::vector<cv::DMatch> goodMatches;
+
+    // Optional: for SSD, standard Lowe's ratio test works on L2 distance, so square the threshold
+    double ssdRatioThresh = ratioThreshold * ratioThreshold;
+
+    // ---- 2. Iterate each descriptor in Image 1 ----------------------------
+    for (int i = 0; i < rows1; ++i) {
+        float* d1 = s1.descriptors.ptr<float>(i);
+
+        double bestScore = (method == MatchMethod::SSD) ? std::numeric_limits<double>::max() : -std::numeric_limits<double>::max();
+        double secondBestScore = (method == MatchMethod::SSD) ? std::numeric_limits<double>::max() : -std::numeric_limits<double>::max();
+        int bestIdx = -1;
+
+        // Compare against each descriptor in Image 2
+        for (int j = 0; j < rows2; ++j) {
+            float* d2 = s2.descriptors.ptr<float>(j);
+            double score = 0.0;
+
+            if (method == MatchMethod::SSD) {
+                // Sum of Squared Differences
+                for (int k = 0; k < cols; ++k) {
+                    double diff = d1[k] - d2[k];
+                    score += diff * diff;
+                }
+            } else {
+                // Normalized Cross Correlation
+                double mean1 = 0, mean2 = 0;
+                for (int k = 0; k < cols; ++k) {
+                    mean1 += d1[k];
+                    mean2 += d2[k];
+                }
+                mean1 /= cols;
+                mean2 /= cols;
+
+                double num = 0, den1 = 0, den2 = 0;
+                for (int k = 0; k < cols; ++k) {
+                    double v1 = d1[k] - mean1;
+                    double v2 = d2[k] - mean2;
+                    num += v1 * v2;
+                    den1 += v1 * v1;
+                    den2 += v2 * v2;
+                }
+                if (den1 == 0 || den2 == 0) score = 0;
+                else score = num / sqrt(den1 * den2);
+            }
+
+            // Keep track of best and second best match
+            if (method == MatchMethod::SSD) {
+                if (score < bestScore) {
+                    secondBestScore = bestScore;
+                    bestScore = score;
+                    bestIdx = j;
+                } else if (score < secondBestScore) {
+                    secondBestScore = score;
+                }
+            } else { // NCC
+                if (score > bestScore) {
+                    secondBestScore = bestScore;
+                    bestScore = score;
+                    bestIdx = j;
+                } else if (score > secondBestScore) {
+                    secondBestScore = score;
+                }
+            }
+        }
+
+        // ---- 3. Filter matches --------------------------------------------
+        bool isGood = false;
+        if (bestIdx != -1) {
+            if (method == MatchMethod::SSD) {
+                // Ratio test for SSD
+                if (bestScore < ssdRatioThresh * secondBestScore) {
+                    isGood = true;
+                }
+            } else { // NCC
+                // For NCC, we simply threshold on a high correlation value
+                if (bestScore > 0.8) {
+                    isGood = true;
+                }
+            }
+        }
+
+        if (isGood) {
+            goodMatches.push_back(cv::DMatch(i, bestIdx, (float)bestScore));
+        }
+    }
+
+    // ---- 4. Draw matches --------------------------------------------------
+    cv::Mat img1Mat = qimageToMat(img1);
+    cv::Mat img2Mat = qimageToMat(img2);
+    cv::Mat matchMat;
+
+    // Use solid green for match lines, and solid red for the keypoints
+    cv::drawMatches(img1Mat, s1.keypoints, img2Mat, s2.keypoints, goodMatches, matchMat,
+                    cv::Scalar(0, 255, 0), cv::Scalar(0, 0, 255), std::vector<char>(),
+                    cv::DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS);
+
+    // ---- 5. Measure time --------------------------------------------------
+    auto t1 = std::chrono::high_resolution_clock::now();
+    double ms = std::chrono::duration<double, std::milli>(t1 - t0).count();
+
+    MatchResult result;
+    result.matchImage = matToQimage(matchMat);
+    result.matchCount = (int)goodMatches.size();
+    result.totalSourceFeatures = rows1;
+    result.timeMs     = ms;
 
     return result;
 }

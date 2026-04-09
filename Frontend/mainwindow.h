@@ -5,6 +5,7 @@
 #include <QImage>
 #include <QLabel>
 #include <QKeyEvent>
+#include <QResizeEvent>
 #include "backend.h"
 
 QT_BEGIN_NAMESPACE
@@ -22,86 +23,35 @@ public:
 protected:
     bool eventFilter(QObject* obj, QEvent* ev) override;
     void keyPressEvent(QKeyEvent* ev) override;
+    void resizeEvent(QResizeEvent* ev) override;   // re-fit images on resize
 
 private slots:
     void on_removeButton_clicked();
     void on_runHarrisButton_clicked();
-    void on_runSiftButton_clicked(); // <-- Added SIFT slot
+    void on_runSiftButton_clicked();
+    void on_runMatchButton_clicked();
 
 private:
     Ui::MainWindow *ui;
     Backend        backend;
-    QImage         currentImage;
 
-    void loadImage();          // shows file dialog and loads
-    void clearImage();         // removes current image
-    QPixmap fitToLabel(const QImage& img, QLabel* lbl);
+    // Original loaded images (always clean for matching)
+    QImage currentImage1;
+    QImage currentImage2;
+
+    // What is currently displayed in each panel (may have features drawn on it)
+    QImage displayImage1;
+    QImage displayImage2;
+    QImage displayMatchResult;
+
+    void loadImage(int imageIndex);
+    void clearImages();
+
+    // Scale img to fit inside lbl bounds using KeepAspectRatio
+    void showInLabel(const QImage& img, QLabel* lbl);
+
+    // Re-fit all currently displayed images (called on resize)
+    void reflowImages();
 };
 
 #endif // MAINWINDOW_H
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// #ifndef MAINWINDOW_H
-// #define MAINWINDOW_H
-
-// #include <QMainWindow>
-// #include <QImage>
-// #include <QLabel>
-// #include <QKeyEvent>
-// #include "backend.h"
-
-// QT_BEGIN_NAMESPACE
-// namespace Ui { class MainWindow; }
-// QT_END_NAMESPACE
-
-// class MainWindow : public QMainWindow
-// {
-//     Q_OBJECT
-
-// public:
-//     explicit MainWindow(QWidget *parent = nullptr);
-//     ~MainWindow() override;
-
-// protected:
-//     bool eventFilter(QObject* obj, QEvent* ev) override;
-//     void keyPressEvent(QKeyEvent* ev) override;
-
-// private slots:
-//     void on_removeButton_clicked();
-//     void on_runHarrisButton_clicked();
-
-// private:
-//     Ui::MainWindow *ui;
-//     Backend        backend;
-//     QImage         currentImage;
-
-//     void loadImage();          // shows file dialog and loads
-//     void clearImage();         // removes current image
-//     QPixmap fitToLabel(const QImage& img, QLabel* lbl);
-// };
-
-// #endif // MAINWINDOW_H
