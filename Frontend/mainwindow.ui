@@ -3,136 +3,327 @@
  <class>MainWindow</class>
  <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
-   <rect><x>0</x><y>0</y><width>1400</width><height>900</height></rect>
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1400</width>
+    <height>900</height>
+   </rect>
   </property>
-  <property name="windowTitle"><string>Feature Detection and Matching</string></property>
-  <property name="minimumSize"><size><width>1000</width><height>700</height></size></property>
-
+  <property name="minimumSize">
+   <size>
+    <width>1000</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Feature Detection and Matching</string>
+  </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="mainLayout" stretch="0,0,1">
-    <property name="spacing"><number>8</number></property>
-    <property name="leftMargin"><number>10</number></property>
-    <property name="topMargin"><number>10</number></property>
-    <property name="rightMargin"><number>10</number></property>
-    <property name="bottomMargin"><number>10</number></property>
-
-    <!-- Top Bar -->
+    <property name="spacing">
+     <number>8</number>
+    </property>
+    <property name="leftMargin">
+     <number>10</number>
+    </property>
+    <property name="topMargin">
+     <number>10</number>
+    </property>
+    <property name="rightMargin">
+     <number>10</number>
+    </property>
+    <property name="bottomMargin">
+     <number>10</number>
+    </property>
     <item>
      <layout class="QHBoxLayout" name="topBarLayout">
       <item>
        <widget class="QPushButton" name="removeButton">
-        <property name="text"><string>Clear Images</string></property>
-        <property name="minimumSize"><size><width>130</width><height>34</height></size></property>
-        <property name="maximumSize"><size><width>130</width><height>34</height></size></property>
-        <property name="cursor"><cursorShape>PointingHandCursor</cursorShape></property>
+        <property name="minimumSize">
+         <size>
+          <width>130</width>
+          <height>34</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>130</width>
+          <height>34</height>
+         </size>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="text">
+         <string>Clear Images</string>
+        </property>
        </widget>
       </item>
       <item>
        <widget class="QLabel" name="filePathLabel">
-        <property name="text"><string>No images loaded — double-click the image panels to upload</string></property>
-        <property name="alignment"><set>Qt::AlignVCenter|Qt::AlignLeft</set></property>
+        <property name="text">
+         <string>No images loaded — double-click the image panels to upload</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
        </widget>
       </item>
       <item>
-       <spacer><property name="orientation"><enum>Qt::Horizontal</enum></property></spacer>
+       <spacer>
+        <property name="orientation">
+         <enum>Qt::Orientation::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+       </spacer>
       </item>
      </layout>
     </item>
-
-    <!-- Controls Row -->
     <item>
      <widget class="QGroupBox" name="groupControls">
-      <property name="title"><string>Parameters and Controls</string></property>
-      <property name="maximumSize"><size><width>16777215</width><height>120</height></size></property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>120</height>
+       </size>
+      </property>
+      <property name="title">
+       <string>Parameters and Controls</string>
+      </property>
       <layout class="QHBoxLayout" name="controlsLayout">
-       <property name="spacing"><number>20</number></property>
+       <property name="spacing">
+        <number>20</number>
+       </property>
        <item>
         <layout class="QVBoxLayout">
-         <item><widget class="QLabel"><property name="text"><string>Sensitivity k</string></property></widget></item>
-         <item><widget class="QDoubleSpinBox" name="spinK"><property name="value"><double>0.04</double></property><property name="singleStep"><double>0.002</double></property><property name="maximumSize"><size><width>120</width><height>16777215</height></size></property></widget></item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Sensitivity k</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="spinK">
+           <property name="maximumSize">
+            <size>
+             <width>120</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="singleStep">
+            <double>0.002000000000000</double>
+           </property>
+           <property name="value">
+            <double>0.040000000000000</double>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
        <item>
         <layout class="QVBoxLayout">
-         <item><widget class="QLabel"><property name="text"><string>Block Size</string></property></widget></item>
-         <item><widget class="QSpinBox" name="spinBlockSize"><property name="value"><number>3</number></property><property name="singleStep"><number>2</number></property><property name="maximumSize"><size><width>120</width><height>16777215</height></size></property></widget></item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Block Size</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QSpinBox" name="spinBlockSize">
+           <property name="maximumSize">
+            <size>
+             <width>120</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="singleStep">
+            <number>2</number>
+           </property>
+           <property name="value">
+            <number>3</number>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
        <item>
         <layout class="QVBoxLayout">
-         <item><widget class="QLabel"><property name="text"><string>Threshold</string></property></widget></item>
-         <item><widget class="QDoubleSpinBox" name="spinThreshold"><property name="value"><double>0.01</double></property><property name="singleStep"><double>0.01</double></property><property name="maximumSize"><size><width>120</width><height>16777215</height></size></property></widget></item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Threshold</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QDoubleSpinBox" name="spinThreshold">
+           <property name="maximumSize">
+            <size>
+             <width>120</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="singleStep">
+            <double>0.010000000000000</double>
+           </property>
+           <property name="value">
+            <double>0.010000000000000</double>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
        <item>
         <widget class="QPushButton" name="runHarrisButton">
-         <property name="text"><string>Harris Detector</string></property>
+         <property name="text">
+          <string>Harris</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="runSiftButton">
-         <property name="text"><string>SIFT Generator</string></property>
+         <property name="text">
+          <string>SIFT Generator</string>
+         </property>
         </widget>
        </item>
        <item>
-        <spacer><property name="orientation"><enum>Qt::Horizontal</enum></property></spacer>
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Orientation::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>0</width>
+           <height>0</height>
+          </size>
+         </property>
+        </spacer>
        </item>
        <item>
         <layout class="QVBoxLayout">
-         <item><widget class="QLabel"><property name="text"><string>Match Metric</string></property></widget></item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>Match Metric</string>
+           </property>
+          </widget>
+         </item>
          <item>
           <widget class="QComboBox" name="comboMatchMethod">
-           <property name="maximumSize"><size><width>100</width><height>16777215</height></size></property>
-           <item><property name="text"><string>SSD</string></property></item>
-           <item><property name="text"><string>NCC</string></property></item>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <item>
+            <property name="text">
+             <string>SSD</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>NCC</string>
+            </property>
+           </item>
           </widget>
          </item>
         </layout>
        </item>
        <item>
         <widget class="QPushButton" name="runMatchButton">
-         <property name="text"><string>Match Features</string></property>
-         <property name="minimumSize"><size><width>140</width><height>44</height></size></property>
+         <property name="minimumSize">
+          <size>
+           <width>140</width>
+           <height>44</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Match Features</string>
+         </property>
         </widget>
        </item>
        <item>
         <layout class="QVBoxLayout">
-         <item><widget class="QLabel" name="labelCornerCount"><property name="text"><string>Features detected: —</string></property></widget></item>
-         <item><widget class="QLabel" name="labelTime"><property name="text"><string>Computation time: —</string></property></widget></item>
+         <item>
+          <widget class="QLabel" name="labelCornerCount">
+           <property name="text">
+            <string>Features detected: —</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="labelTime">
+           <property name="text">
+            <string>Computation time: —</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </item>
       </layout>
      </widget>
     </item>
-
-    <!-- Content: Left stacked images | Right match result -->
     <item>
      <layout class="QHBoxLayout" name="contentLayout" stretch="2,3">
-      <property name="spacing"><number>8</number></property>
-
-      <!-- Left: Two input images stacked -->
+      <property name="spacing">
+       <number>8</number>
+      </property>
       <item>
        <layout class="QVBoxLayout" name="leftColumn" stretch="1,1">
-        <property name="spacing"><number>8</number></property>
+        <property name="spacing">
+         <number>8</number>
+        </property>
         <item>
          <widget class="QGroupBox" name="groupImage1">
-          <property name="title"><string>Image 1 — double-click to upload</string></property>
+          <property name="title">
+           <string>Image 1 — double-click to upload</string>
+          </property>
           <layout class="QVBoxLayout" name="img1Layout">
-           <property name="spacing"><number>0</number></property>
-           <property name="leftMargin"><number>4</number></property>
-           <property name="topMargin"><number>4</number></property>
-           <property name="rightMargin"><number>4</number></property>
-           <property name="bottomMargin"><number>4</number></property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>4</number>
+           </property>
+           <property name="topMargin">
+            <number>4</number>
+           </property>
+           <property name="rightMargin">
+            <number>4</number>
+           </property>
+           <property name="bottomMargin">
+            <number>4</number>
+           </property>
            <item>
             <widget class="QLabel" name="labelImage1">
-             <property name="text"><string>Double-click to upload Image 1</string></property>
-             <property name="alignment"><set>Qt::AlignCenter</set></property>
              <property name="sizePolicy">
               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-               <horstretch>0</horstretch><verstretch>0</verstretch>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
               </sizepolicy>
              </property>
-             <property name="cursor"><cursorShape>PointingHandCursor</cursorShape></property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string>Double-click to upload Image 1</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignmentFlag::AlignCenter</set>
+             </property>
             </widget>
            </item>
           </layout>
@@ -140,23 +331,42 @@
         </item>
         <item>
          <widget class="QGroupBox" name="groupImage2">
-          <property name="title"><string>Image 2 — double-click to upload</string></property>
+          <property name="title">
+           <string>Image 2 — double-click to upload</string>
+          </property>
           <layout class="QVBoxLayout" name="img2Layout">
-           <property name="spacing"><number>0</number></property>
-           <property name="leftMargin"><number>4</number></property>
-           <property name="topMargin"><number>4</number></property>
-           <property name="rightMargin"><number>4</number></property>
-           <property name="bottomMargin"><number>4</number></property>
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>4</number>
+           </property>
+           <property name="topMargin">
+            <number>4</number>
+           </property>
+           <property name="rightMargin">
+            <number>4</number>
+           </property>
+           <property name="bottomMargin">
+            <number>4</number>
+           </property>
            <item>
             <widget class="QLabel" name="labelImage2">
-             <property name="text"><string>Double-click to upload Image 2</string></property>
-             <property name="alignment"><set>Qt::AlignCenter</set></property>
              <property name="sizePolicy">
               <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-               <horstretch>0</horstretch><verstretch>0</verstretch>
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
               </sizepolicy>
              </property>
-             <property name="cursor"><cursorShape>PointingHandCursor</cursorShape></property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="text">
+              <string>Double-click to upload Image 2</string>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignmentFlag::AlignCenter</set>
+             </property>
             </widget>
            </item>
           </layout>
@@ -164,40 +374,59 @@
         </item>
        </layout>
       </item>
-
-      <!-- Right: Match result -->
       <item>
        <widget class="QGroupBox" name="groupMatchResult">
-        <property name="title"><string>Resulting Output</string></property>
+        <property name="title">
+         <string>Resulting Output</string>
+        </property>
         <layout class="QVBoxLayout" name="matchLayout">
-         <property name="spacing"><number>0</number></property>
-         <property name="leftMargin"><number>4</number></property>
-         <property name="topMargin"><number>4</number></property>
-         <property name="rightMargin"><number>4</number></property>
-         <property name="bottomMargin"><number>4</number></property>
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <property name="leftMargin">
+          <number>4</number>
+         </property>
+         <property name="topMargin">
+          <number>4</number>
+         </property>
+         <property name="rightMargin">
+          <number>4</number>
+         </property>
+         <property name="bottomMargin">
+          <number>4</number>
+         </property>
          <item>
           <widget class="QLabel" name="labelMatchResult">
-           <property name="text"><string>Matching feature view will appear here</string></property>
-           <property name="alignment"><set>Qt::AlignCenter</set></property>
            <property name="sizePolicy">
             <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-             <horstretch>0</horstretch><verstretch>0</verstretch>
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
             </sizepolicy>
+           </property>
+           <property name="text">
+            <string>Matching feature view will appear here</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignmentFlag::AlignCenter</set>
            </property>
           </widget>
          </item>
         </layout>
        </widget>
       </item>
-
      </layout>
     </item>
-
    </layout>
   </widget>
-
   <widget class="QMenuBar" name="menubar">
-   <property name="geometry"><rect><x>0</x><y>0</y><width>1400</width><height>22</height></rect></property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1400</width>
+     <height>33</height>
+    </rect>
+   </property>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

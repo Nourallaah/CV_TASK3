@@ -240,6 +240,45 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     setStyleSheet(APP_STYLE);
 
+    // --- NEW CODE: Create Two Side-by-Side Toggle Buttons ---
+
+    // 1. Create the Lambda-Minus button and steal the CSS style from the Harris button
+    QPushButton* runLambdaMinusButton = new QPushButton("Lambda-Minus (λ-)", this);
+    runLambdaMinusButton->setObjectName("runHarrisButton");
+
+    // 2. Make them checkable (toggle buttons)
+    ui->runHarrisButton->setCheckable(true);
+    runLambdaMinusButton->setCheckable(true);
+
+    // 3. Group them so only ONE can be active at a time (exclusive)
+    detectorGroup = new QButtonGroup(this);
+    detectorGroup->setExclusive(true);
+    detectorGroup->addButton(ui->runHarrisButton);
+    detectorGroup->addButton(runLambdaMinusButton);
+
+    // 4. Put them side-by-side in a Horizontal Layout
+    if (ui->runHarrisButton->parentWidget() && ui->runHarrisButton->parentWidget()->layout()) {
+        QBoxLayout* boxLayout = qobject_cast<QBoxLayout*>(ui->runHarrisButton->parentWidget()->layout());
+        if (boxLayout) {
+            int buttonIndex = boxLayout->indexOf(ui->runHarrisButton);
+
+            QHBoxLayout* hLayout = new QHBoxLayout();
+            hLayout->setContentsMargins(0, 0, 0, 0);
+            hLayout->setSpacing(10); // Space between the two buttons
+
+            // Move Harris button to the horizontal layout, then add Lambda-Minus next to it
+            boxLayout->removeWidget(ui->runHarrisButton);
+            hLayout->addWidget(ui->runHarrisButton);
+            hLayout->addWidget(runLambdaMinusButton);
+
+            // Insert them exactly where the old Harris button was
+            boxLayout->insertLayout(buttonIndex, hLayout);
+        }
+    }
+
+    // 5. Connect the new Lambda-Minus button to its click event
+    connect(runLambdaMinusButton, &QPushButton::clicked, this, &MainWindow::runLambdaMinusButton_clicked);
+    // --------------------------------------------------------
     // Labels must expand/shrink freely with the layout; pixmap scaling is handled manually
     ui->labelImage1->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
     ui->labelImage2->setSizePolicy(QSizePolicy::Ignored, QSizePolicy::Ignored);
@@ -373,11 +412,32 @@ void MainWindow::on_removeButton_clicked() { clearImages(); }
 
 void MainWindow::on_runHarrisButton_clicked()
 {
+    runCornerDetector(false); // false = Standard Harris
+}
+
+void MainWindow::runLambdaMinusButton_clicked()
+{
+    runCornerDetector(true);  // true = Lambda-Minus (λ-)
+}
+
+void MainWindow::runCornerDetector(bool useLambdaMinus)
+{
     if (currentImage1.isNull() && currentImage2.isNull()) {
         QMessageBox::information(this, "Missing Image", "Please upload at least one image.");
+        // Uncheck the button if no image is loaded
+        if (detectorGroup->checkedButton()) {
+            detectorGroup->setExclusive(false);
+            detectorGroup->checkedButton()->setChecked(false);
+            detectorGroup->setExclusive(true);
+        }
         return;
     }
-    statusBar()->showMessage("Running Harris corner detection…");
+
+    if (useLambdaMinus) {
+        statusBar()->showMessage("Running Lambda-Minus (λ-) corner detection…");
+    } else {
+        statusBar()->showMessage("Running Harris corner detection…");
+    }
     QApplication::processEvents();
 
     double k  = ui->spinK->value();
@@ -388,15 +448,16 @@ void MainWindow::on_runHarrisButton_clicked()
     QString cText = "Corners: ", tText = "Time: ";
 
     if (!currentImage1.isNull()) {
-        auto r = backend.runHarris(currentImage1, k, block, th);
+        auto r = backend.runHarris(currentImage1, k, block, th, useLambdaMinus);
         displayImage1 = r.outputImage;
         showInLabel(displayImage1, ui->labelImage1);
         total += r.cornerCount;
         cText += QString("Img1: %1 (%2)   ").arg(r.cornerCount).arg(getQuality(r.cornerCount));
         tText += QString("Img1: %1 ms   ").arg(r.timeMs, 0, 'f', 1);
     }
+
     if (!currentImage2.isNull()) {
-        auto r = backend.runHarris(currentImage2, k, block, th);
+        auto r = backend.runHarris(currentImage2, k, block, th, useLambdaMinus);
         displayImage2 = r.outputImage;
         showInLabel(displayImage2, ui->labelImage2);
         total += r.cornerCount;
@@ -406,8 +467,14 @@ void MainWindow::on_runHarrisButton_clicked()
 
     ui->labelCornerCount->setText(cText);
     ui->labelTime->setText(tText);
-    statusBar()->showMessage(QString("Harris done — %1 total corners.").arg(total));
+
+    if (useLambdaMinus) {
+        statusBar()->showMessage(QString("Lambda-Minus done — %1 total corners.").arg(total));
+    } else {
+        statusBar()->showMessage(QString("Harris done — %1 total corners.").arg(total));
+    }
 }
+
 
 void MainWindow::on_runSiftButton_clicked()
 {
@@ -453,8 +520,8 @@ void MainWindow::on_runMatchButton_clicked()
     QApplication::processEvents();
 
     MatchMethod method = (ui->comboMatchMethod->currentText() == "SSD") ? MatchMethod::SSD : MatchMethod::NCC;
-    
-    // We use a looser ratio threshold for SSD to get more visual lines, 
+
+    // We use a looser ratio threshold for SSD to get more visual lines,
     // or we can just pass the default.
     MatchResult res = backend.matchFeatures(currentImage1, currentImage2, method, 0.8);
 
