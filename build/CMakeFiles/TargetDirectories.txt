@@ -1,5 +1,5 @@
-D:/Downloads/CV_Task3/CV_TASK3/build/CMakeFiles/CVTask3.dir
-D:/Downloads/CV_Task3/CV_TASK3/build/CMakeFiles/edit_cache.dir
-D:/Downloads/CV_Task3/CV_TASK3/build/CMakeFiles/rebuild_cache.dir
-D:/Downloads/CV_Task3/CV_TASK3/build/CMakeFiles/CVTask3_autogen_timestamp_deps.dir
-D:/Downloads/CV_Task3/CV_TASK3/build/CMakeFiles/CVTask3_autogen.dir
+D:/CV_TASK3/build/CMakeFiles/CVTask3.dir
+D:/CV_TASK3/build/CMakeFiles/edit_cache.dir
+D:/CV_TASK3/build/CMakeFiles/rebuild_cache.dir
+D:/CV_TASK3/build/CMakeFiles/CVTask3_autogen_timestamp_deps.dir
+D:/CV_TASK3/build/CMakeFiles/CVTask3_autogen.dir

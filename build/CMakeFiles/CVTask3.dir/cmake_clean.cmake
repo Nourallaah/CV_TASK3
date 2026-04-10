@@ -11,7 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/CVTask3.dir/Frontend/mainwindow.cpp.obj.d"
   "CVTask3.exe"
   "CVTask3.exe.manifest"
-  "CVTask3.lib"
   "CVTask3.pdb"
   "CVTask3_autogen/EWIEGA46WW/qrc_resources.cpp"
   "CVTask3_autogen/mocs_compilation.cpp"
@@ -19,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CVTask3_autogen.dir/AutogenUsed.txt"
   "CMakeFiles/CVTask3_autogen.dir/ParseCache.txt"
   "CVTask3_autogen"
+  "libCVTask3.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
