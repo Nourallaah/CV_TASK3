@@ -143,10 +143,53 @@ SiftResult Backend::runSift(const QImage& input)
         int py = kp.pt.y;
         std::vector<float> desc(128, 0.0f);
 
+        // 1. Assign dominant orientation to the keypoint
+        double dominant_theta = 0.0;
+        double max_weight = -1.0;
+        std::vector<double> ori_hist(36, 0.0);
+
         for(int dy = -8; dy < 8; ++dy) {
             for(int dx = -8; dx < 8; ++dx) {
                 int nx = px + dx;
                 int ny = py + dy;
+
+                if (nx < 1 || nx >= W - 1 || ny < 1 || ny >= H - 1) continue;
+
+                double gx = gaussians[1][ny][nx+1] - gaussians[1][ny][nx-1];
+                double gy = gaussians[1][ny+1][nx] - gaussians[1][ny-1][nx];
+                
+                double mag = std::sqrt(gx*gx + gy*gy);
+                double th = std::atan2(gy, gx) * 180.0 / M_PI;
+                if(th < 0) th += 360.0;
+                
+                double gw = std::exp(-(dx*dx + dy*dy) / (2 * 4.0 * 4.0));
+                
+                int bin = (int)(th / 10.0) % 36;
+                ori_hist[bin] += mag * gw;
+            }
+        }
+        
+        for(int i = 0; i < 36; ++i) {
+            if(ori_hist[i] > max_weight) {
+                max_weight = ori_hist[i];
+                dominant_theta = i * 10.0 + 5.0; // Center of the bin
+            }
+        }
+
+        // 2. Compute rotation-invariant descriptor
+        double cos_t = std::cos(dominant_theta * M_PI / 180.0);
+        double sin_t = std::sin(dominant_theta * M_PI / 180.0);
+
+        for(int dy = -8; dy < 8; ++dy) {
+            for(int dx = -8; dx < 8; ++dx) {
+                // Rotate the patch coordinates
+                int rot_x = (int)std::round(dx * cos_t - dy * sin_t);
+                int rot_y = (int)std::round(dx * sin_t + dy * cos_t);
+                
+                int nx = px + rot_x;
+                int ny = py + rot_y;
+
+                if (nx < 1 || nx >= W - 1 || ny < 1 || ny >= H - 1) continue;
 
                 double gx = gaussians[1][ny][nx+1] - gaussians[1][ny][nx-1];
                 double gy = gaussians[1][ny+1][nx] - gaussians[1][ny-1][nx];
@@ -154,7 +197,11 @@ SiftResult Backend::runSift(const QImage& input)
                 double mag = std::sqrt(gx*gx + gy*gy);
                 double theta = std::atan2(gy, gx) * 180.0 / M_PI;
                 if(theta < 0) theta += 360.0;
-
+                
+                // Adjust gradient angle relative to the dominant orientation
+                theta -= dominant_theta;
+                if(theta < 0) theta += 360.0;
+                
                 double gw = std::exp(-(dx*dx + dy*dy) / (2 * 4.0 * 4.0));
                 mag *= gw;
 

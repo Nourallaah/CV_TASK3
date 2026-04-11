@@ -1,598 +1,578 @@
-CMakeFiles/CVTask3.dir/CVTask3_autogen/mocs_compilation.cpp.obj: \
- D:\CV_TASK3\build\CVTask3_autogen\mocs_compilation.cpp \
- D:\CV_TASK3\build\CVTask3_autogen\V57I63ONWH/moc_mainwindow.cpp \
- D:/CV_TASK3/Frontend/mainwindow.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
- C:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/qtwidgetsglobal.h \
- C:/msys64/mingw64/include/qt6/QtGui/qtguiglobal.h \
- C:/msys64/mingw64/include/qt6/QtCore/qglobal.h \
- C:/msys64/mingw64/include/c++/15.2.0/type_traits \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- C:/msys64/mingw64/include/c++/15.2.0/pstl/pstl_config.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/version.h \
- C:/msys64/mingw64/include/c++/15.2.0/cstddef \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
- C:/msys64/mingw64/include/stddef.h C:/msys64/mingw64/include/crtdefs.h \
- C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
- C:/msys64/mingw64/include/_mingw_mac.h \
- C:/msys64/mingw64/include/_mingw_secapi.h \
- C:/msys64/mingw64/include/vadefs.h \
- C:/msys64/mingw64/include/sdks/_mingw_ddk.h \
- C:/msys64/mingw64/include/c++/15.2.0/utility \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_relops.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_pair.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/move.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/utility.h \
- C:/msys64/mingw64/include/c++/15.2.0/initializer_list \
- C:/msys64/mingw64/include/c++/15.2.0/cstdint \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
- C:/msys64/mingw64/include/stdint.h C:/msys64/mingw64/include/assert.h \
- C:/msys64/mingw64/include/c++/15.2.0/stdlib.h \
- C:/msys64/mingw64/include/c++/15.2.0/cstdlib \
- C:/msys64/mingw64/include/stdlib.h \
- C:/msys64/mingw64/include/corecrt_wstdlib.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
- C:/msys64/mingw64/include/limits.h \
- C:/msys64/mingw64/include/sec_api/stdlib_s.h \
- C:/msys64/mingw64/include/malloc.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
- C:/msys64/mingw64/include/errno.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/std_abs.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdbool.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtcoreglobal.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtversionchecks.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtconfiginclude.h \
- C:/msys64/mingw64/include/c++/15.2.0/version \
- C:/msys64/mingw64/include/qt6/QtCore/qconfig.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtcore-config.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtconfigmacros.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtdeprecationdefinitions.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcompilerdetection.h \
- C:/msys64/mingw64/include/qt6/QtCore/qprocessordetection.h \
- C:/msys64/mingw64/include/qt6/QtCore/qsystemdetection.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtcoreexports.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtdeprecationmarkers.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtclasshelpermacros.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtpreprocessorsupport.h \
- C:/msys64/mingw64/include/qt6/QtCore/qassert.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtnoop.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtypes.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtversion.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtypeinfo.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcontainerfwd.h \
- C:/msys64/mingw64/include/c++/15.2.0/limits \
- C:/msys64/mingw64/include/qt6/QtCore/qsysinfo.h \
- C:/msys64/mingw64/include/qt6/QtCore/qlogging.h \
- C:/msys64/mingw64/include/qt6/QtCore/qflags.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcompare_impl.h \
- C:/msys64/mingw64/include/c++/15.2.0/algorithm \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_algobase.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/functexcept.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/exception_defines.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/cpp_type_traits.h \
- C:/msys64/mingw64/include/c++/15.2.0/ext/type_traits.h \
- C:/msys64/mingw64/include/c++/15.2.0/ext/numeric_traits.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_iterator_base_types.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_iterator_base_funcs.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/concept_check.h \
- C:/msys64/mingw64/include/c++/15.2.0/debug/assertions.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_iterator.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/ptr_traits.h \
- C:/msys64/mingw64/include/c++/15.2.0/debug/debug.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/predefined_ops.h \
- C:/msys64/mingw64/include/c++/15.2.0/bit \
- C:/msys64/mingw64/include/c++/15.2.0/concepts \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_algo.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/algorithmfwd.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_heap.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/uniform_int_dist.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_tempbuf.h \
- C:/msys64/mingw64/include/c++/15.2.0/new \
- C:/msys64/mingw64/include/c++/15.2.0/bits/exception.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_construct.h \
- C:/msys64/mingw64/include/c++/15.2.0/pstl/glue_algorithm_defs.h \
- C:/msys64/mingw64/include/c++/15.2.0/pstl/execution_defs.h \
- C:/msys64/mingw64/include/qt6/QtCore/qatomic.h \
- C:/msys64/mingw64/include/qt6/QtCore/qbasicatomic.h \
- C:/msys64/mingw64/include/qt6/QtCore/qatomic_cxx11.h \
- C:/msys64/mingw64/include/qt6/QtCore/qgenericatomic.h \
- C:/msys64/mingw64/include/qt6/QtCore/qyieldcpu.h \
- C:/msys64/mingw64/include/c++/15.2.0/atomic \
- C:/msys64/mingw64/include/c++/15.2.0/bits/atomic_base.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h \
- C:/msys64/mingw64/include/qt6/QtCore/qconstructormacros.h \
- C:/msys64/mingw64/include/qt6/QtCore/qdarwinhelpers.h \
- C:/msys64/mingw64/include/qt6/QtCore/qexceptionhandling.h \
- C:/msys64/mingw64/include/qt6/QtCore/qforeach.h \
- C:/msys64/mingw64/include/qt6/QtCore/qttypetraits.h \
- C:/msys64/mingw64/include/c++/15.2.0/optional \
- C:/msys64/mingw64/include/c++/15.2.0/exception \
- C:/msys64/mingw64/include/c++/15.2.0/bits/exception_ptr.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h \
- C:/msys64/mingw64/include/c++/15.2.0/typeinfo \
- C:/msys64/mingw64/include/c++/15.2.0/bits/hash_bytes.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/nested_exception.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/enable_special_members.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/functional_hash.h \
- C:/msys64/mingw64/include/c++/15.2.0/tuple \
- C:/msys64/mingw64/include/c++/15.2.0/bits/uses_allocator.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/invoke.h \
- C:/msys64/mingw64/include/c++/15.2.0/variant \
- C:/msys64/mingw64/include/c++/15.2.0/bits/monostate.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/parse_numbers.h \
- C:/msys64/mingw64/include/c++/15.2.0/ext/aligned_buffer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qfunctionpointer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qglobalstatic.h \
- C:/msys64/mingw64/include/qt6/QtCore/qmalloc.h \
- C:/msys64/mingw64/include/qt6/QtCore/qminmax.h \
- C:/msys64/mingw64/include/qt6/QtCore/qnumeric.h \
- C:/msys64/mingw64/include/c++/15.2.0/cmath \
- C:/msys64/mingw64/include/c++/15.2.0/bits/requires_hosted.h \
- C:/msys64/mingw64/include/math.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/specfun.h \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/gamma.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/special_function_util.h \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/bessel_function.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/beta_function.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/ell_integral.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/exp_integral.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/hypergeometric.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/legendre_function.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/modified_bessel_func.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/poly_hermite.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/poly_laguerre.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/tr1/riemann_zeta.tcc \
- C:/msys64/mingw64/include/qt6/QtCore/q20type_traits.h \
- C:/msys64/mingw64/include/qt6/QtCore/qoverload.h \
- C:/msys64/mingw64/include/qt6/QtCore/qswap.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtenvironmentvariables.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtresource.h \
- C:/msys64/mingw64/include/qt6/QtCore/qttranslation.h \
- C:/msys64/mingw64/include/qt6/QtCore/qversiontagging.h \
- C:/msys64/mingw64/include/qt6/QtGui/qtgui-config.h \
- C:/msys64/mingw64/include/qt6/QtGui/qtguiexports.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/qtwidgets-config.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/qtwidgetsexports.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/qwidget.h \
- C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
- C:/msys64/mingw64/include/qt6/QtCore/qobjectdefs.h \
- C:/msys64/mingw64/include/qt6/QtCore/qnamespace.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcompare.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstdlibdetection.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcomparehelpers.h \
- C:/msys64/mingw64/include/c++/15.2.0/functional \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_function.h \
- C:/msys64/mingw64/include/c++/15.2.0/backward/binders.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/refwrap.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/std_function.h \
- C:/msys64/mingw64/include/c++/15.2.0/unordered_map \
- C:/msys64/mingw64/include/c++/15.2.0/bits/unordered_map.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/hashtable.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/hashtable_policy.h \
- C:/msys64/mingw64/include/c++/15.2.0/ext/alloc_traits.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/alloc_traits.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/memoryfwd.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/allocator.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/new_allocator.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/node_handle.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/range_access.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/erase_if.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/memory_resource.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/uses_allocator_args.h \
- C:/msys64/mingw64/include/c++/15.2.0/vector \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_uninitialized.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_vector.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/vector.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/array \
- C:/msys64/mingw64/include/c++/15.2.0/compare \
- C:/msys64/mingw64/include/qt6/QtCore/qtmetamacros.h \
- C:/msys64/mingw64/include/qt6/QtCore/qobjectdefs_impl.h \
- C:/msys64/mingw64/include/qt6/QtCore/qfunctionaltools_impl.h \
- C:/msys64/mingw64/include/c++/15.2.0/memory \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_raw_storage_iter.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/align.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/unique_ptr.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/shared_ptr.h \
- C:/msys64/mingw64/include/c++/15.2.0/iosfwd \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stringfwd.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/postypes.h \
- C:/msys64/mingw64/include/c++/15.2.0/cwchar \
- C:/msys64/mingw64/include/wchar.h \
- C:/msys64/mingw64/include/corecrt_stdio_config.h \
- C:/msys64/mingw64/include/corecrt_wctype.h \
- C:/msys64/mingw64/include/_mingw_off_t.h \
- C:/msys64/mingw64/include/_mingw_stat64.h \
- C:/msys64/mingw64/include/swprintf.inl \
- C:/msys64/mingw64/include/sec_api/wchar_s.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/shared_ptr_base.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/allocated_ptr.h \
- C:/msys64/mingw64/include/c++/15.2.0/ext/atomicity.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
- C:/msys64/mingw64/include/pthread.h \
- C:/msys64/mingw64/include/sys/types.h \
- C:/msys64/mingw64/include/process.h \
- C:/msys64/mingw64/include/corecrt_startup.h \
- C:/msys64/mingw64/include/signal.h \
- C:/msys64/mingw64/include/pthread_signal.h \
- C:/msys64/mingw64/include/time.h C:/msys64/mingw64/include/sys/timeb.h \
- C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
- C:/msys64/mingw64/include/_timeval.h \
- C:/msys64/mingw64/include/pthread_time.h \
- C:/msys64/mingw64/include/pthread_compat.h \
- C:/msys64/mingw64/include/sched.h \
- C:/msys64/mingw64/include/pthread_unistd.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
- C:/msys64/mingw64/include/c++/15.2.0/ext/concurrence.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/shared_ptr_atomic.h \
- C:/msys64/mingw64/include/c++/15.2.0/backward/auto_ptr.h \
- C:/msys64/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h \
- C:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
- C:/msys64/mingw64/include/qt6/QtCore/qobject.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstring.h \
- C:/msys64/mingw64/include/qt6/QtCore/qchar.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringview.h \
- C:/msys64/mingw64/include/qt6/QtCore/qbytearray.h \
- C:/msys64/mingw64/include/qt6/QtCore/qrefcount.h \
- C:/msys64/mingw64/include/qt6/QtCore/qarraydata.h \
- C:/msys64/mingw64/include/qt6/QtCore/qpair.h \
- C:/msys64/mingw64/include/string.h \
- C:/msys64/mingw64/include/sec_api/string_s.h \
- C:/msys64/mingw64/include/qt6/QtCore/qarraydatapointer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qarraydataops.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcontainertools_impl.h \
- C:/msys64/mingw64/include/qt6/QtCore/qxptype_traits.h \
- C:/msys64/mingw64/include/c++/15.2.0/cstring \
- C:/msys64/mingw64/include/c++/15.2.0/iterator \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stream_iterator.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/streambuf_iterator.h \
- C:/msys64/mingw64/include/c++/15.2.0/streambuf \
- C:/msys64/mingw64/include/c++/15.2.0/bits/localefwd.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h \
- C:/msys64/mingw64/include/c++/15.2.0/clocale \
- C:/msys64/mingw64/include/locale.h C:/msys64/mingw64/include/stdio.h \
- C:/msys64/mingw64/include/sec_api/stdio_s.h \
- C:/msys64/mingw64/include/c++/15.2.0/cctype \
- C:/msys64/mingw64/include/ctype.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/ios_base.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/locale_classes.h \
- C:/msys64/mingw64/include/c++/15.2.0/string \
- C:/msys64/mingw64/include/c++/15.2.0/bits/char_traits.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/ostream_insert.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/basic_string.h \
- C:/msys64/mingw64/include/c++/15.2.0/string_view \
- C:/msys64/mingw64/include/c++/15.2.0/bits/string_view.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/ext/string_conversions.h \
- C:/msys64/mingw64/include/c++/15.2.0/cstdio \
- C:/msys64/mingw64/include/c++/15.2.0/cerrno \
- C:/msys64/mingw64/include/c++/15.2.0/bits/charconv.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/basic_string.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/bits/locale_classes.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/system_error \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/error_constants.h \
- C:/msys64/mingw64/include/c++/15.2.0/stdexcept \
- C:/msys64/mingw64/include/c++/15.2.0/bits/streambuf.tcc \
- C:/msys64/mingw64/include/qt6/QtCore/q20functional.h \
- C:/msys64/mingw64/include/qt6/QtCore/q20memory.h \
- C:/msys64/mingw64/include/qt6/QtCore/q17memory.h \
- C:/msys64/mingw64/include/qt6/QtCore/qbytearrayalgorithms.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
- C:/msys64/mingw64/include/stdarg.h \
- C:/msys64/mingw64/include/_mingw_stdarg.h \
- C:/msys64/mingw64/include/qt6/QtCore/qbytearrayview.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringfwd.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringliteral.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringalgorithms.h \
- C:/msys64/mingw64/include/qt6/QtCore/qlatin1stringview.h \
- C:/msys64/mingw64/include/qt6/QtCore/qanystringview.h \
- C:/msys64/mingw64/include/qt6/QtCore/qutf8stringview.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringtokenizer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringbuilder.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringconverter.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringconverter_base.h \
- C:/msys64/mingw64/include/qt6/QtCore/qlist.h \
- C:/msys64/mingw64/include/qt6/QtCore/qhashfunctions.h \
- C:/msys64/mingw64/include/c++/15.2.0/numeric \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_numeric.h \
- C:/msys64/mingw64/include/c++/15.2.0/pstl/glue_numeric_defs.h \
- C:/msys64/mingw64/include/qt6/QtCore/qiterator.h \
- C:/msys64/mingw64/include/qt6/QtCore/qbytearraylist.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringlist.h \
- C:/msys64/mingw64/include/qt6/QtCore/qalgorithms.h \
- C:/msys64/mingw64/include/qt6/QtCore/qstringmatcher.h \
- C:/msys64/mingw64/include/qt6/QtCore/qscopedpointer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qmetatype.h \
- C:/msys64/mingw64/include/qt6/QtCore/qdatastream.h \
- C:/msys64/mingw64/include/qt6/QtCore/qiodevicebase.h \
- C:/msys64/mingw64/include/qt6/QtCore/qfloat16.h \
- C:/msys64/mingw64/include/qt6/QtCore/qmath.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtformat_impl.h \
- C:/msys64/mingw64/include/qt6/QtCore/qiterable.h \
- C:/msys64/mingw64/include/qt6/QtCore/qmetacontainer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcontainerinfo.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtaggedpointer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qscopeguard.h \
- C:/msys64/mingw64/include/c++/15.2.0/list \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_list.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/list.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/map \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_tree.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_map.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_multimap.h \
- C:/msys64/mingw64/include/qt6/QtCore/qobject_impl.h \
- C:/msys64/mingw64/include/qt6/QtCore/qbindingstorage.h \
- C:/msys64/mingw64/include/c++/15.2.0/chrono \
- C:/msys64/mingw64/include/c++/15.2.0/bits/chrono.h \
- C:/msys64/mingw64/include/c++/15.2.0/ratio \
- C:/msys64/mingw64/include/c++/15.2.0/ctime \
- C:/msys64/mingw64/include/qt6/QtCore/qmargins.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcheckedint_impl.h \
- C:/msys64/mingw64/include/qt6/QtCore/q23utility.h \
- C:/msys64/mingw64/include/qt6/QtCore/q20utility.h \
- C:/msys64/mingw64/include/qt6/QtGui/qaction.h \
- C:/msys64/mingw64/include/qt6/QtGui/qkeysequence.h \
- C:/msys64/mingw64/include/qt6/QtGui/qicon.h \
- C:/msys64/mingw64/include/qt6/QtCore/qsize.h \
- C:/msys64/mingw64/include/qt6/QtGui/qpixmap.h \
- C:/msys64/mingw64/include/qt6/QtGui/qpaintdevice.h \
- C:/msys64/mingw64/include/qt6/QtCore/qrect.h \
- C:/msys64/mingw64/include/qt6/QtCore/qpoint.h \
- C:/msys64/mingw64/include/qt6/QtGui/qcolor.h \
- C:/msys64/mingw64/include/qt6/QtGui/qrgb.h \
- C:/msys64/mingw64/include/qt6/QtGui/qrgba64.h \
- C:/msys64/mingw64/include/qt6/QtCore/qshareddata.h \
- C:/msys64/mingw64/include/qt6/QtGui/qimage.h \
- C:/msys64/mingw64/include/qt6/QtGui/qpixelformat.h \
- C:/msys64/mingw64/include/qt6/QtGui/qtransform.h \
- C:/msys64/mingw64/include/qt6/QtGui/qpolygon.h \
- C:/msys64/mingw64/include/qt6/QtGui/qregion.h \
- C:/msys64/mingw64/include/qt6/QtCore/qspan.h \
- C:/msys64/mingw64/include/c++/15.2.0/cassert \
- C:/msys64/mingw64/include/qt6/QtCore/q20iterator.h \
- C:/msys64/mingw64/include/qt6/QtCore/qline.h \
- C:/msys64/mingw64/include/qt6/QtCore/qvariant.h \
- C:/msys64/mingw64/include/qt6/QtCore/qdebug.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtextstream.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcontiguouscache.h \
- C:/msys64/mingw64/include/c++/15.2.0/climits \
- C:/msys64/mingw64/include/qt6/QtCore/qsharedpointer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qsharedpointer_impl.h \
- C:/msys64/mingw64/include/c++/15.2.0/set \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_set.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_multiset.h \
- C:/msys64/mingw64/include/c++/15.2.0/unordered_set \
- C:/msys64/mingw64/include/c++/15.2.0/bits/unordered_set.h \
- C:/msys64/mingw64/include/qt6/QtCore/qmap.h \
- C:/msys64/mingw64/include/qt6/QtCore/qshareddata_impl.h \
- C:/msys64/mingw64/include/qt6/QtCore/qset.h \
- C:/msys64/mingw64/include/qt6/QtCore/qhash.h \
- C:/msys64/mingw64/include/qt6/QtCore/qvarlengtharray.h \
- C:/msys64/mingw64/include/qt6/QtCore/qalloc.h \
- C:/msys64/mingw64/include/qt6/QtGui/qpalette.h \
- C:/msys64/mingw64/include/qt6/QtGui/qbrush.h \
- C:/msys64/mingw64/include/qt6/QtGui/qfont.h \
- C:/msys64/mingw64/include/qt6/QtCore/qendian.h \
- C:/msys64/mingw64/include/qt6/QtGui/qfontmetrics.h \
- C:/msys64/mingw64/include/qt6/QtGui/qfontinfo.h \
- C:/msys64/mingw64/include/qt6/QtGui/qfontvariableaxis.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/qsizepolicy.h \
- C:/msys64/mingw64/include/qt6/QtGui/qcursor.h \
- C:/msys64/mingw64/include/qt6/QtGui/qbitmap.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
- C:/msys64/mingw64/include/qt6/QtGui/QImage \
- C:/msys64/mingw64/include/qt6/QtGui/qimage.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/QLabel \
- C:/msys64/mingw64/include/qt6/QtWidgets/qlabel.h \
- C:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
- C:/msys64/mingw64/include/qt6/QtGui/qpicture.h \
- C:/msys64/mingw64/include/qt6/QtCore/qiodevice.h \
- C:/msys64/mingw64/include/qt6/QtGui/qtextdocument.h \
- C:/msys64/mingw64/include/qt6/QtCore/qurl.h \
- C:/msys64/mingw64/include/qt6/QtGui/QKeyEvent \
- C:/msys64/mingw64/include/qt6/QtGui/qevent.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcoreevent.h \
- C:/msys64/mingw64/include/qt6/QtCore/qbasictimer.h \
- C:/msys64/mingw64/include/qt6/QtCore/qabstracteventdispatcher.h \
- C:/msys64/mingw64/include/qt6/QtCore/qeventloop.h \
- C:/msys64/mingw64/include/qt6/QtCore/qdeadlinetimer.h \
- C:/msys64/mingw64/include/qt6/QtGui/qeventpoint.h \
- C:/msys64/mingw64/include/qt6/QtGui/qvector2d.h \
- C:/msys64/mingw64/include/qt6/QtGui/qvectornd.h \
- C:/msys64/mingw64/include/qt6/QtGui/qpointingdevice.h \
- C:/msys64/mingw64/include/qt6/QtGui/qinputdevice.h \
- C:/msys64/mingw64/include/qt6/QtGui/qscreen.h \
- C:/msys64/mingw64/include/qt6/QtCore/QList \
- C:/msys64/mingw64/include/qt6/QtCore/qlist.h \
- C:/msys64/mingw64/include/qt6/QtCore/QObject \
- C:/msys64/mingw64/include/qt6/QtCore/qobject.h \
- C:/msys64/mingw64/include/qt6/QtCore/QRect \
- C:/msys64/mingw64/include/qt6/QtCore/qrect.h \
- C:/msys64/mingw64/include/qt6/QtCore/QSize \
- C:/msys64/mingw64/include/qt6/QtCore/qsize.h \
- C:/msys64/mingw64/include/qt6/QtCore/QSizeF \
- C:/msys64/mingw64/include/qt6/QtGui/QTransform \
- C:/msys64/mingw64/include/qt6/QtGui/qtransform.h \
- C:/msys64/mingw64/include/qt6/QtCore/qnativeinterface.h \
- C:/msys64/mingw64/include/qt6/QtGui/qscreen_platform.h \
- C:/msys64/mingw64/include/qt6/QtGui/qguiapplication.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcoreapplication.h \
- C:/msys64/mingw64/include/qt6/QtCore/qcoreapplication_platform.h \
- C:/msys64/mingw64/include/qt6/QtGui/qinputmethod.h \
- C:/msys64/mingw64/include/qt6/QtCore/qlocale.h \
- C:/msys64/mingw64/include/qt6/QtGui/qguiapplication_platform.h \
- C:/msys64/mingw64/include/qt6/QtGui/QResizeEvent \
- D:/CV_TASK3/Backend/backend.h \
- C:/msys64/mingw64/include/qt6/QtCore/QString \
- C:/msys64/mingw64/include/qt6/QtCore/qstring.h \
- C:/msys64/mingw64/include/opencv4/opencv2/opencv.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/opencv_modules.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cvdef.h \
- C:/msys64/mingw64/include/opencv4/opencv2/core/version.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/hal/interface.h \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cv_cpu_dispatch.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mmintrin.h \
- C:/msys64/mingw64/include/opencv4/opencv2/core/base.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cvstd.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cvstd_wrapper.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/neon_utils.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/vsx_utils.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/check.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/traits.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/matx.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/saturate.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/fast_math.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/matx.inl.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/types.hpp \
- C:/msys64/mingw64/include/c++/15.2.0/cfloat \
- C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
- C:/msys64/mingw64/include/float.h \
- C:/msys64/mingw64/include/opencv4/opencv2/core/mat.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/bufferpool.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/mat.inl.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/persistence.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/operations.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cvstd.inl.hpp \
- C:/msys64/mingw64/include/c++/15.2.0/complex \
- C:/msys64/mingw64/include/c++/15.2.0/sstream \
- C:/msys64/mingw64/include/c++/15.2.0/istream \
- C:/msys64/mingw64/include/c++/15.2.0/ios \
- C:/msys64/mingw64/include/c++/15.2.0/bits/basic_ios.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/locale_facets.h \
- C:/msys64/mingw64/include/c++/15.2.0/cwctype \
- C:/msys64/mingw64/include/wctype.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/locale_facets.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/bits/basic_ios.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/ostream \
- C:/msys64/mingw64/include/c++/15.2.0/bits/ostream.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/ostream.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/bits/istream.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/bits/sstream.tcc \
- C:/msys64/mingw64/include/opencv4/opencv2/core/utility.hpp \
- C:/msys64/mingw64/include/c++/15.2.0/mutex \
- C:/msys64/mingw64/include/c++/15.2.0/bits/std_mutex.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/unique_lock.h \
- C:/msys64/mingw64/include/opencv4/opencv2/core/optim.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/ovx.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cvdef.h \
- C:/msys64/mingw64/include/opencv4/opencv2/calib3d.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/features2d.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/miniflann.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/defines.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/config.h \
- C:/msys64/mingw64/include/opencv4/opencv2/core/affine.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/utils/logger.hpp \
- C:/msys64/mingw64/include/c++/15.2.0/iostream \
- C:/msys64/mingw64/include/opencv4/opencv2/core/utils/logger.defines.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/utils/logtag.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/dnn.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/dnn/dnn.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/async.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/dnn/version.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/dnn/dict.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/dnn/layer.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/dnn/dnn.inl.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/dnn/utils/inference_engine.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/dnn/dnn.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/flann.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/flann_base.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/general.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/matrix.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/params.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/any.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/defines.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/saving.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/nn_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/result_set.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/all_indices.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/kdtree_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/dynamic_bitset.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/dist.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/heap.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/allocator.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/random.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/kdtree_single_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/kmeans_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/logger.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/composite_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/linear_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/hierarchical_clustering_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/lsh_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/lsh_table.h \
- C:/msys64/mingw64/include/c++/15.2.0/iomanip \
- C:/msys64/mingw64/include/c++/15.2.0/locale \
- C:/msys64/mingw64/include/c++/15.2.0/bits/locale_facets_nonio.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/time_members.h \
- C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/messages_members.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/codecvt.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/locale_facets_nonio.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/bits/locale_conv.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/quoted_string.h \
- C:/msys64/mingw64/include/c++/15.2.0/math.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/autotuned_index.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/ground_truth.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/index_testing.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/timer.h \
- C:/msys64/mingw64/include/opencv4/opencv2/flann/sampling.h \
- C:/msys64/mingw64/include/opencv4/opencv2/highgui.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/imgcodecs.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/videoio.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/imgproc.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/imgproc/segmentation.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/ml.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/ml/ml.inl.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect/aruco_detector.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect/aruco_dictionary.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect/aruco_board.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect/graphical_code_detector.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect/detection_based_tracker.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect/face.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect/charuco_detector.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/objdetect/barcode.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/photo.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/warpers.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/warpers.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cuda.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cuda_types.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/core/cuda.inl.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/warpers_inl.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/warpers.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/matchers.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/matchers.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/util.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/util_inl.hpp \
- C:/msys64/mingw64/include/c++/15.2.0/queue \
- C:/msys64/mingw64/include/c++/15.2.0/deque \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_deque.h \
- C:/msys64/mingw64/include/c++/15.2.0/bits/deque.tcc \
- C:/msys64/mingw64/include/c++/15.2.0/bits/stl_queue.h \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/camera.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/exposure_compensate.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/seam_finders.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/blenders.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/stitching/detail/camera.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/video.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/video/tracking.hpp \
- C:/msys64/mingw64/include/opencv4/opencv2/video/background_segm.hpp \
- C:/msys64/mingw64/include/qt6/QtGui/qtextcursor.h \
- C:/msys64/mingw64/include/qt6/QtGui/qtextformat.h \
- C:/msys64/mingw64/include/qt6/QtGui/qpen.h \
- C:/msys64/mingw64/include/qt6/QtGui/qtextoption.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtmochelpers.h \
- C:/msys64/mingw64/include/qt6/QtCore/qtmocconstants.h \
- C:/msys64/mingw64/include/qt6/QtCore/q20algorithm.h \
- C:/msys64/mingw64/include/qt6/QtCore/q23type_traits.h
+D:/Downloads/CV_Task3/CV_TASK3/build/CVTask3_autogen/V57I63ONWH/moc_mainwindow.cpp
+D:/Downloads/CV_Task3/CV_TASK3/build/CVTask3_autogen/V57I63ONWH/../../../Frontend/mainwindow.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/QMainWindow
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qmainwindow.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qtwidgetsglobal.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qtguiglobal.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qglobal.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/type_traits
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/yvals_core.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vcruntime.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/sal.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/concurrencysal.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vadefs.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xkeycheck.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cstddef
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/stddef.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xtr1common
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cstdint
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/stdint.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/utility
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/initializer_list
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/assert.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/stdbool.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtcoreglobal.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtversionchecks.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtconfiginclude.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/version
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qconfig.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtcore-config.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtconfigmacros.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtdeprecationdefinitions.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qprocessordetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsystemdetection.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/assert.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtcoreexports.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtdeprecationmarkers.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtclasshelpermacros.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtpreprocessorsupport.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsystemdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qprocessordetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qassert.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtnoop.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtypes.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qprocessordetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsystemdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtversion.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtypeinfo.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainerfwd.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/limits
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cfloat
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/float.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/climits
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/limits.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cwchar
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cstdio
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/stdio.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wstdio.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_stdio_config.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/wchar.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_memcpy_s.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/errno.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vcruntime_string.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wconio.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wctype.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wdirect.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wio.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_share.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wprocess.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wstdlib.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wstring.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_wtime.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/sys/stat.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/sys/types.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/intrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/intrin0.inl.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/setjmp.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/immintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/wmmintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/nmmintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/smmintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/tmmintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/pmmintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/emmintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xmmintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/mmintrin.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/malloc.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_malloc.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/zmmintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/ammintrin.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/intrin0.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsysinfo.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qprocessordetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qlogging.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qflags.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompare_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/algorithm
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_heap_algorithms.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xutility
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/yvals.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/crtdbg.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vcruntime_new_debug.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vcruntime_new.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/crtdefs.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/use_ansi.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_iter_core.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cstdlib
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/math.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_math.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/stdlib.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_search.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cstring
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/string.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_memory.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_minmax.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xmemory
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/new
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/exception
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vcruntime_exception.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/eh.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_terminate.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xatomic.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qatomic.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qbasicatomic.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qatomic_cxx11.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qgenericatomic.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qyieldcpu.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qprocessordetection.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/atomic
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xthreads.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_threads_core.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xtimec.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/ctime
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/time.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qconstructormacros.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qdarwinhelpers.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qexceptionhandling.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qforeach.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qttypetraits.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/optional
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xsmf_control.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/tuple
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/variant
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qfunctionpointer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qglobalstatic.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qmalloc.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qminmax.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qnumeric.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cmath
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q20type_traits.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsystemdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qoverload.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qswap.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtenvironmentvariables.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtresource.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qttranslation.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qversiontagging.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qtgui-config.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qtguiexports.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qtwidgets-config.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qtwidgetsexports.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qwidget.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qwindowdefs.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qobjectdefs.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qnamespace.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompare.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstdlibdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcomparehelpers.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/functional
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/typeinfo
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vcruntime_typeinfo.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/unordered_map
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xhash
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/list
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xpolymorphic_allocator.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vector
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_bit_utils.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_sanitizer_annotate_container.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xbit_ops.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xnode_handle.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtmetamacros.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qobjectdefs_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qfunctionaltools_impl.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/memory
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/iosfwd
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qwindowdefs_win.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qobject.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstring.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qchar.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringview.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qchar.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringview.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qbytearray.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qrefcount.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qarraydata.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qpair.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qarraydatapointer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qarraydataops.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qxptype_traits.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q23type_traits.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/iterator
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q20functional.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q20memory.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q17memory.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qbytearrayalgorithms.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/stdarg.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qbytearrayview.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringfwd.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/string
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xstring
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_string_view.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cctype
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/ctype.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/string_view
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringfwd.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringalgorithms.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringfwd.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qlatin1stringview.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qchar.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringfwd.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qanystringview.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qutf8stringview.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringfwd.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringtokenizer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringbuilder.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstring.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringconverter.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringconverter_base.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringfwd.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstring.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringbuilder.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstring.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qlist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qhashfunctions.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringfwd.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/numeric
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qiterator.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qbytearraylist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qlist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringlist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qlist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qalgorithms.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q20bit.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsimd.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringmatcher.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qscopedpointer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qmetatype.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qdatastream.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qchar.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qiodevicebase.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qfloat16.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qmath.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtformat_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsystemdetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qiterable.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtaggedpointer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qmetacontainer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainerinfo.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qscopeguard.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/array
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/map
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xtree
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qobject_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qbindingstorage.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/chrono
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_chrono.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/ratio
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/system_error
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_system_error_abi.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cerrno
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/stdexcept
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xcall_once.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xerrc.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xfilesystem_abi.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qmargins.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcheckedint_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q23utility.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q20utility.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qaction.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qkeysequence.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qicon.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsize.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qpixmap.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qpaintdevice.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qrect.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qpoint.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qcolor.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qrgb.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qprocessordetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringlist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qrgba64.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qprocessordetection.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qshareddata.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qimage.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qpixelformat.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qtransform.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qpolygon.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qregion.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qspan.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcompilerdetection.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/cassert
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/assert.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q20iterator.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qline.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qvariant.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qdebug.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtextstream.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qchar.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontiguouscache.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsharedpointer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qsharedpointer_impl.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/set
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/unordered_set
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qmap.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qshareddata_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qset.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qhash.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qvarlengtharray.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qalloc.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcontainertools_impl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringlist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qbytearraylist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qpalette.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qbrush.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qfont.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qendian.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qfontmetrics.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qfontinfo.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qfontvariableaxis.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qsizepolicy.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qcursor.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qbitmap.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qtabwidget.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/QImage
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/QLabel
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qlabel.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qframe.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qpicture.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qiodevice.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qstringlist.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qtextdocument.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qurl.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/QKeyEvent
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qevent.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcoreevent.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qbasictimer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qabstracteventdispatcher.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qeventloop.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qdeadlinetimer.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qeventpoint.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qvector2d.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qvectornd.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qpointingdevice.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qinputdevice.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qscreen.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/QList
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/QObject
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/QRect
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/QSize
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/QSizeF
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/QTransform
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qnativeinterface.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qscreen_platform.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qguiapplication.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcoreapplication.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcoreapplication_platform.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qcoreapplication.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qinputmethod.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qlocale.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qguiapplication_platform.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qguiapplication.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/QResizeEvent
+D:/Downloads/CV_Task3/CV_TASK3/Backend/backend.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/QImage
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/QString
+D:/Downloads/opencv/build/include/opencv2/opencv.hpp
+D:/Downloads/opencv/build/include/opencv2/opencv_modules.hpp
+D:/Downloads/opencv/build/include/opencv2/core.hpp
+D:/Downloads/opencv/build/include/opencv2/core/cvdef.h
+D:/Downloads/opencv/build/include/opencv2/core/version.hpp
+D:/Downloads/opencv/build/include/opencv2/core/hal/interface.h
+D:/Downloads/opencv/build/include/opencv2/core/cv_cpu_dispatch.h
+D:/Downloads/opencv/build/include/opencv2/core/base.hpp
+D:/Downloads/opencv/build/include/opencv2/opencv_modules.hpp
+D:/Downloads/opencv/build/include/opencv2/core/cvstd.hpp
+D:/Downloads/opencv/build/include/opencv2/core/cvstd_wrapper.hpp
+D:/Downloads/opencv/build/include/opencv2/core/neon_utils.hpp
+D:/Downloads/opencv/build/include/opencv2/core/vsx_utils.hpp
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/assert.h
+D:/Downloads/opencv/build/include/opencv2/core/check.hpp
+D:/Downloads/opencv/build/include/opencv2/core/base.hpp
+D:/Downloads/opencv/build/include/opencv2/core/traits.hpp
+D:/Downloads/opencv/build/include/opencv2/core/matx.hpp
+D:/Downloads/opencv/build/include/opencv2/core/saturate.hpp
+D:/Downloads/opencv/build/include/opencv2/core/fast_math.hpp
+D:/Downloads/opencv/build/include/opencv2/core/matx.inl.hpp
+D:/Downloads/opencv/build/include/opencv2/core/matx.hpp
+D:/Downloads/opencv/build/include/opencv2/core/types.hpp
+D:/Downloads/opencv/build/include/opencv2/core/mat.hpp
+D:/Downloads/opencv/build/include/opencv2/core/bufferpool.hpp
+D:/Downloads/opencv/build/include/opencv2/core/mat.inl.hpp
+D:/Downloads/opencv/build/include/opencv2/core/persistence.hpp
+D:/Downloads/opencv/build/include/opencv2/core/operations.hpp
+D:/Downloads/opencv/build/include/opencv2/core/cvstd.inl.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/complex
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/sstream
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/istream
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_ostream.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/ios
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xlocnum
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/streambuf
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xiosbase
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/share.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xlocale
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xfacet
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xlocinfo
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/__msvc_xlocinfo_types.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/clocale
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/locale.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/ymath.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/ostream
+D:/Downloads/opencv/build/include/opencv2/core/utility.hpp
+D:/Downloads/opencv/build/include/opencv2/core.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/mutex
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/thread
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/process.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/corecrt_startup.h
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/math.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/vcruntime_startup.h
+D:/Downloads/opencv/build/include/opencv2/core/optim.hpp
+D:/Downloads/opencv/build/include/opencv2/core.hpp
+D:/Downloads/opencv/build/include/opencv2/core/ovx.hpp
+D:/Downloads/opencv/build/include/opencv2/calib3d.hpp
+D:/Downloads/opencv/build/include/opencv2/features2d.hpp
+D:/Downloads/opencv/build/include/opencv2/opencv_modules.hpp
+D:/Downloads/opencv/build/include/opencv2/flann/miniflann.hpp
+D:/Downloads/opencv/build/include/opencv2/flann/defines.h
+D:/Downloads/opencv/build/include/opencv2/flann/config.h
+D:/Downloads/opencv/build/include/opencv2/core/affine.hpp
+D:/Downloads/opencv/build/include/opencv2/core/utils/logger.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/iostream
+D:/Downloads/opencv/build/include/opencv2/core/utils/logger.defines.hpp
+D:/Downloads/opencv/build/include/opencv2/core/utils/logtag.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn/dnn.hpp
+D:/Downloads/opencv/build/include/opencv2/core/async.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn/../dnn/version.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn/dict.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn/dnn.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn/layer.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn/dnn.inl.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn/utils/inference_engine.hpp
+D:/Downloads/opencv/build/include/opencv2/dnn/utils/../dnn.hpp
+D:/Downloads/opencv/build/include/opencv2/flann.hpp
+D:/Downloads/opencv/build/include/opencv2/flann/flann_base.hpp
+D:/Downloads/opencv/build/include/opencv2/flann/general.h
+D:/Downloads/opencv/build/include/opencv2/flann/matrix.h
+D:/Downloads/opencv/build/include/opencv2/flann/params.h
+D:/Downloads/opencv/build/include/opencv2/flann/any.h
+D:/Downloads/opencv/build/include/opencv2/flann/saving.h
+D:/Downloads/opencv/build/include/opencv2/flann/nn_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/result_set.h
+D:/Downloads/opencv/build/include/opencv2/flann/all_indices.h
+D:/Downloads/opencv/build/include/opencv2/flann/kdtree_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/dynamic_bitset.h
+D:/Downloads/opencv/build/include/opencv2/flann/dist.h
+D:/Downloads/opencv/build/include/opencv2/flann/heap.h
+D:/Downloads/opencv/build/include/opencv2/flann/allocator.h
+D:/Downloads/opencv/build/include/opencv2/flann/random.h
+D:/Downloads/opencv/build/include/opencv2/flann/kdtree_single_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/kmeans_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/logger.h
+D:/Downloads/opencv/build/include/opencv2/flann/composite_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/linear_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/hierarchical_clustering_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/lsh_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/lsh_table.h
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/iomanip
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xlocmon
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/xloctime
+C:/Program Files (x86)/Windows Kits/10/include/10.0.26100.0/ucrt/math.h
+D:/Downloads/opencv/build/include/opencv2/flann/autotuned_index.h
+D:/Downloads/opencv/build/include/opencv2/flann/ground_truth.h
+D:/Downloads/opencv/build/include/opencv2/flann/index_testing.h
+D:/Downloads/opencv/build/include/opencv2/flann/timer.h
+D:/Downloads/opencv/build/include/opencv2/flann/sampling.h
+D:/Downloads/opencv/build/include/opencv2/highgui.hpp
+D:/Downloads/opencv/build/include/opencv2/imgcodecs.hpp
+D:/Downloads/opencv/build/include/opencv2/videoio.hpp
+D:/Downloads/opencv/build/include/opencv2/imgproc.hpp
+D:/Downloads/opencv/build/include/opencv2/./imgproc/segmentation.hpp
+D:/Downloads/opencv/build/include/opencv2/imgproc.hpp
+D:/Downloads/opencv/build/include/opencv2/ml.hpp
+D:/Downloads/opencv/build/include/opencv2/ml/ml.inl.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect/aruco_detector.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect/aruco_dictionary.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect/aruco_board.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect/graphical_code_detector.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect/detection_based_tracker.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect/face.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect/charuco_detector.hpp
+D:/Downloads/opencv/build/include/opencv2/objdetect/barcode.hpp
+D:/Downloads/opencv/build/include/opencv2/photo.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/warpers.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/warpers.hpp
+D:/Downloads/opencv/build/include/opencv2/core/cuda.hpp
+D:/Downloads/opencv/build/include/opencv2/core/cuda_types.hpp
+D:/Downloads/opencv/build/include/opencv2/core/cuda.inl.hpp
+D:/Downloads/opencv/build/include/opencv2/core/cuda.hpp
+D:/Downloads/opencv/build/include/opencv2/opencv_modules.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/warpers_inl.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/warpers.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/matchers.hpp
+D:/Downloads/opencv/build/include/opencv2/opencv_modules.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/motion_estimators.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/util.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/util_inl.hpp
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/queue
+D:/VisualStudio/VC/Tools/MSVC/14.50.35717/include/deque
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/util.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/camera.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/exposure_compensate.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/seam_finders.hpp
+D:/Downloads/opencv/build/include/opencv2/opencv_modules.hpp
+D:/Downloads/opencv/build/include/opencv2/stitching/detail/blenders.hpp
+D:/Downloads/opencv/build/include/opencv2/video.hpp
+D:/Downloads/opencv/build/include/opencv2/video/tracking.hpp
+D:/Downloads/opencv/build/include/opencv2/video/background_segm.hpp
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/QCheckBox
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qcheckbox.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qabstractbutton.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/QHBoxLayout
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qboxlayout.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qlayout.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qlayoutitem.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qboxlayout.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qgridlayout.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qlayout.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/QButtonGroup
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qbuttongroup.h
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/QPushButton
+C:/Qt/6.11.0/msvc2022_64/include/QtWidgets/qpushbutton.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qtextcursor.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qtextformat.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qpen.h
+C:/Qt/6.11.0/msvc2022_64/include/QtGui/qtextoption.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qchar.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtmochelpers.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/qtmocconstants.h
+C:/Qt/6.11.0/msvc2022_64/include/QtCore/q20algorithm.h

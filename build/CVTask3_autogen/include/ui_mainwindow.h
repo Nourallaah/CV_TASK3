@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 6.10.0
+** Created by: Qt User Interface Compiler version 6.11.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -95,7 +95,7 @@ public:
 
         filePathLabel = new QLabel(centralwidget);
         filePathLabel->setObjectName("filePathLabel");
-        filePathLabel->setAlignment(Qt::AlignVCenter|Qt::AlignLeft);
+        filePathLabel->setAlignment(Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter);
 
         topBarLayout->addWidget(filePathLabel);
 
@@ -121,9 +121,9 @@ public:
 
         spinK = new QDoubleSpinBox(groupControls);
         spinK->setObjectName("spinK");
-        spinK->setValue(0.040000000000000);
-        spinK->setSingleStep(0.002000000000000);
         spinK->setMaximumSize(QSize(120, 16777215));
+        spinK->setSingleStep(0.002000000000000);
+        spinK->setValue(0.040000000000000);
 
         vboxLayout->addWidget(spinK);
 
@@ -139,9 +139,9 @@ public:
 
         spinBlockSize = new QSpinBox(groupControls);
         spinBlockSize->setObjectName("spinBlockSize");
-        spinBlockSize->setValue(3);
-        spinBlockSize->setSingleStep(2);
         spinBlockSize->setMaximumSize(QSize(120, 16777215));
+        spinBlockSize->setSingleStep(2);
+        spinBlockSize->setValue(3);
 
         vboxLayout1->addWidget(spinBlockSize);
 
@@ -157,9 +157,9 @@ public:
 
         spinThreshold = new QDoubleSpinBox(groupControls);
         spinThreshold->setObjectName("spinThreshold");
-        spinThreshold->setValue(0.010000000000000);
-        spinThreshold->setSingleStep(0.010000000000000);
         spinThreshold->setMaximumSize(QSize(120, 16777215));
+        spinThreshold->setSingleStep(0.010000000000000);
+        spinThreshold->setValue(0.010000000000000);
 
         vboxLayout2->addWidget(spinThreshold);
 
@@ -168,6 +168,7 @@ public:
 
         runHarrisButton = new QPushButton(groupControls);
         runHarrisButton->setObjectName("runHarrisButton");
+        runHarrisButton->setCheckable(true);
 
         controlsLayout->addWidget(runHarrisButton);
 
@@ -236,13 +237,13 @@ public:
         img1Layout->setContentsMargins(4, 4, 4, 4);
         labelImage1 = new QLabel(groupImage1);
         labelImage1->setObjectName("labelImage1");
-        labelImage1->setAlignment(Qt::AlignCenter);
         QSizePolicy sizePolicy(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Expanding);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(labelImage1->sizePolicy().hasHeightForWidth());
         labelImage1->setSizePolicy(sizePolicy);
         labelImage1->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
+        labelImage1->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         img1Layout->addWidget(labelImage1);
 
@@ -257,10 +258,10 @@ public:
         img2Layout->setContentsMargins(4, 4, 4, 4);
         labelImage2 = new QLabel(groupImage2);
         labelImage2->setObjectName("labelImage2");
-        labelImage2->setAlignment(Qt::AlignCenter);
         sizePolicy.setHeightForWidth(labelImage2->sizePolicy().hasHeightForWidth());
         labelImage2->setSizePolicy(sizePolicy);
         labelImage2->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
+        labelImage2->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         img2Layout->addWidget(labelImage2);
 
@@ -280,9 +281,9 @@ public:
         matchLayout->setContentsMargins(4, 4, 4, 4);
         labelMatchResult = new QLabel(groupMatchResult);
         labelMatchResult->setObjectName("labelMatchResult");
-        labelMatchResult->setAlignment(Qt::AlignCenter);
         sizePolicy.setHeightForWidth(labelMatchResult->sizePolicy().hasHeightForWidth());
         labelMatchResult->setSizePolicy(sizePolicy);
+        labelMatchResult->setAlignment(Qt::AlignmentFlag::AlignCenter);
 
         matchLayout->addWidget(labelMatchResult);
 
@@ -298,7 +299,7 @@ public:
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 1400, 22));
+        menubar->setGeometry(QRect(0, 0, 1400, 33));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
@@ -318,7 +319,7 @@ public:
         label->setText(QCoreApplication::translate("MainWindow", "Sensitivity k", nullptr));
         label1->setText(QCoreApplication::translate("MainWindow", "Block Size", nullptr));
         label2->setText(QCoreApplication::translate("MainWindow", "Threshold", nullptr));
-        runHarrisButton->setText(QCoreApplication::translate("MainWindow", "Harris Detector", nullptr));
+        runHarrisButton->setText(QCoreApplication::translate("MainWindow", "Harris", nullptr));
         runSiftButton->setText(QCoreApplication::translate("MainWindow", "SIFT Generator", nullptr));
         label3->setText(QCoreApplication::translate("MainWindow", "Match Metric", nullptr));
         comboMatchMethod->setItemText(0, QCoreApplication::translate("MainWindow", "SSD", nullptr));
